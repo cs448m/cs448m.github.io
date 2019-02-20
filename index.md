@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /
+permalink: /index.html
 
 title: "Making Making Machines for Makers"
 excerpt: "Application required. Deadline to apply is Fri, Mar 29 at 11:59 pm."
@@ -22,3 +22,10 @@ An introductory, project-based exploration of systems and processes for making t
 **TA:** Anh Truong  
 **Prerequisite:** CS106A or equivalent programming experience. Students should have a desire to make things.  
 **Application Link:** [https://goo.gl/forms/HnUkUczDL8sG00UL2](https://goo.gl/forms/HnUkUczDL8sG00UL2)
+
+
+##### Things We've Made:
+We consider ourselves "makers" and here are some examples of things that we've made.
+<div class="tiles">
+{% for post in site.posts %} {% include post-grid.html %} {% endfor %}
+</div>

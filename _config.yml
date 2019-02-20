@@ -23,7 +23,6 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
-
 # Site owner
 owner:
   name:
@@ -37,8 +36,10 @@ owner:
   disqus-shortname:
 
 
+
 include:
   - .htaccess
+  - ["_posts"]
 exclude:
   - "*.less"
   - "*.sublime-project"
