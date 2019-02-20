@@ -234,10 +234,11 @@
 	text-align: center;
 	color: $white;
 	@include media($large) {
-		background-size: cover;
+		background-size: 100%;
 	}
 }
 .page-lead-content {
+	background-color: rgba(0, 0, 0, .4);
 	padding: 1em;
 	@include media($medium) {
 		padding: 2em;
@@ -246,12 +247,12 @@
 		padding: 3em;
 	}
 	h1 {
-		@include font-size(48);
+		@include font-size(40);
 		@include media($medium) {
-			@include font-size(60);
+			@include font-size(45);
 		}
 		@include media($large) {
-			@include font-size(72);
+			@include font-size(50);
 		}
 	}
 	h2 {
