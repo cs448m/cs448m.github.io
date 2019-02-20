@@ -25,7 +25,7 @@ An introductory, project-based exploration of systems and processes for making t
 
 
 ##### Things We've Made:
-We consider ourselves "makers" and here are some examples of things that we've made.
+We consider ourselves "makers" and here are some examples of things that we've made. Check out [this page](/craft-examples) for other examples of things you can make (disclaimer, we didn't make these!) :)
 <div class="tiles">
 {% for post in site.posts %} {% include post-grid.html %} {% endfor %}
 </div>
