@@ -8,7 +8,7 @@ course website for cs448m
 - Craft Inspiration: craft_inspiration.md
 
 ### To test changes locally: 
-`bundle exec jekyll serve`
+`bundle exec jekyll serve`  
 `bundle exec jekyll build`
 
 ### craft_inspiration.md
