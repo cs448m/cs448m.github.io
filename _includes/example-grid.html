@@ -1,0 +1,5 @@
+<article class="tile" itemscope >
+  <img src="{{ item.imageurl }}" itemprop="image" class="grid-img">
+  {% if item.credit %}{% include image-credit.html %}{% endif %}
+  {{ item.caption | strip_html }}
+</article><!-- /.tile -->

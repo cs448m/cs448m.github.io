@@ -1,0 +1,11 @@
+---
+layout: landing
+title: {{ title }}
+date: {{ date }}
+modified:
+excerpt:
+image:
+  feature:
+  teaser:
+  thumb:
+---

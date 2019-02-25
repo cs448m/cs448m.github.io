@@ -9,6 +9,7 @@
     @include fill-parent;
   }
   @include media(new-breakpoint(min-width em(480) 12)) {
+    position: relative;
     @include span-columns(3);
     @include omega(4n);
   }
@@ -41,6 +42,23 @@
       &:after {
         background: rgba($base-color,0.2);
       }
+    }
+  }
+  .image-credit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 2px 5px;
+    background-color: rgba($black,.5);
+    color: $white;
+    font-family: $alt-font;
+    @include font-size(12,no);
+    text-align: right;
+    z-index: 10;
+    a {
+      color: $white;
+      text-decoration: none;
     }
   }
 }

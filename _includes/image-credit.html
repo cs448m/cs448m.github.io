@@ -1,1 +1,5 @@
-<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->
+{% if page.image.creditlink %}
+<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div>
+{% elsif item.credit %}
+<div class="image-credit">Image source: <a href="{{ item.link }}" itemprop="citation">{{ item.credit }}</a></div><!-- /.image-credit -->
+{% endif %}

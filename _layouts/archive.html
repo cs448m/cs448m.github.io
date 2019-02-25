@@ -2,30 +2,25 @@
 layout: default
 ---
 
-<div id="main" role="main">	
-	{% if page.image.feature %}
-		<div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
-		 <!-- <div class="page-feature">
-			<div class="page-image"> -->
-<!-- 				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
- -->		
- 			<div class="page-lead-content">
-	 			<div class="page-title">
-					<h1>{{ page.title }}</h1>
-					{% if page.excerpt %}<p>{{ page.excerpt }}</p>{% endif %}
-					<a href="{{ page.application-lnk }}" class="btn-inverse">Go to Application</a>
-				</div>
-			</div>
- 			<div class="page-image">
-				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-			</div> <!-- /.page-image -->
-		</div><!-- /.page-feature --> 
-	{% endif %}		
+<div id="main" role="main">			
 	<div class="wrap">
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+			{% if page.excerpt %}<p>{{ page.excerpt }}</p>{% endif %}
+		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
-				{{ content }}
+				{% for machine in page.machines%}
+					<h4>{{ machine.kind }}</h4>
+					<h6> Example Products: </h6>
+					{% for item in machine.products%}
+						{% include example-grid.html %}
+					{% endfor %}
+					<h6> Things you can make with them </h6>
+					{% for item in machine.crafts%}
+						{% include example-grid.html %}
+					{% endfor %}
+				{% endfor %}
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
-</div><!-- /#main -->

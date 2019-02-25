@@ -134,7 +134,6 @@
       @include omega(4n);
     }
     @include media($large) {
-      float: left;
       width: 6.575em;
       margin-right: .25em; // magic number ugh
       margin-bottom: .25em; // magic number ugh

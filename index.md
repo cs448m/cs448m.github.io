@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: landing
 permalink: /index.html
 
 title: "Making Making Machines for Makers"

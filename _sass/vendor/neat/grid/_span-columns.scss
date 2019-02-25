@@ -14,10 +14,9 @@
     display: table-cell;
     width: percentage($columns / $container-columns);
   } @else {
-    float: #{$opposite-direction};
 
     @if $display != no-display {
-      display: block;
+      display: inline-block;
     }
 
     @if $display == collapse {
