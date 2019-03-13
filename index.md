@@ -13,7 +13,7 @@ image:
 ---
 
 ##### Course Description:
-An introductory, project-based exploration of systems and processes for making things using computer-aided design and manufacturing, and an introduction to machines and machine tools. Emphasis will be placed on building novel machines and related software for use by "makers" and interactive machines. Course projects will encourage students to understand, build and modify/hack a sequence of machines: 
+An introductory, project-based exploration of systems and processes for making things using computer-aided design and manufacturing, and an introduction to machines and machine tools. Emphasis will be placed on building novel machines and related software for use by "makers". Course projects will encourage students to understand, build and modify/hack a sequence of machines: 
 (1) an embroidery machine for custom textiles, (2) a paper cutting machine (with drag knife) for ornamental design, and (3) an XY plotter with Arduino controller. Through these projects students explore both (i) principles of operation (mechanical, stepper motors and servos, electrical control, computer software), and (ii) computer algorithms (trajectory, tool path, design). Current trends in interactive machines will be surveyed. The course will culminate in a final student-selected project.  
 
 ##### Projects:
