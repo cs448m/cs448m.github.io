@@ -39,9 +39,9 @@ BOM
 
 ### Assembling center plate
 
-![Solid v-wheel kit](https://openbuildspartstore.com/solid-v-wheel-kit/)
+[Solid v-wheel kit](https://openbuildspartstore.com/solid-v-wheel-kit/)
 
-![Solid v-wheel kit install video](https://www.youtube.com/watch?v=YtkGiLg2edk)
+[Solid v-wheel kit install video](https://www.youtube.com/watch?v=YtkGiLg2edk)
 
 ![Center plate](images/center1.jpg)
 
