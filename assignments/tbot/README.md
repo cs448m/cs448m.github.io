@@ -43,6 +43,8 @@ BOM
 
 [Solid v-wheel kit install video](https://www.youtube.com/watch?v=YtkGiLg2edk)
 
+*CAD drawing an image of a blank plate*
+
 ![Center plate](images/center1.jpg)
 
 ![Center plate](images/center2.jpg)
@@ -56,7 +58,13 @@ Components
 - 8 Openbuilds Solid v-wheel kits
 - 16 additional spacers - 2 1mm washers per wheel
 
-*WARNING Removing paper protection may be difficult$
+*WARNING Removing paper protection from acrylic may be difficult$
+
+Instructions
+- note that one side uses eccentric spacers and the other side round spacers
+- insert two washers on the axle to increase spacing between plate and v-wheel
+- the groove on the eccentric spacer is on the short side; 
+start with the groove outward which will be the loosest fit.
 
 ### Stepper motor and mount
 
@@ -67,7 +75,7 @@ Components
 - 4 M5 x 10mm BHCS + 4 M5 t-nuts
 - 2 GT2 20t timing pulleys
 
-### Assembling idler pulley
+### Idler pulleys and mount
 
 ![Idler pulleys and mount](images/idler.mount1.jpg)
 
