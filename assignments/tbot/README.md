@@ -9,9 +9,30 @@ This assignment is to build a working t-bot plotter.
 
 ## Kit
 
-- Picture of kit
+Picture of kit
 
-- BOM
+BOM
+- 2 500mm 2040 v-slot
+- 8 solid v-wheel kits (precision spacer and nylock nut)
+- 4 eccentric spacers
+- 6 spacers 1/4"
+- 2.133m 6mm wide GT2 belt
+- 2 GT2 smooth pulley
+- 2 GT2 timing pulleys, 20t
+- 1 arduino uno R3
+- 1 stepper motor driver shield	
+- 2 stepper motor driver
+- 2 NEMA-17 stepper motors
+- 1 IEC power cord
+- 1 Meanwell LRS-150-24 24V power supply
+- 2 thin M5 t-nuts
+- 2 M5 nylock nuts
+- 6 thick M5 t-nut
+- 6 M5x8mm BHCS	
+- 10 M5x30mm BHCS
+- 4 M3x10mm BHCS 
+- 2 Omron snap-action switches
+- 1 SG90 9g micro servo
 
 ## Mechanical
 
@@ -37,7 +58,7 @@ Components
 
 *WARNING Removing paper protection may be difficult$
 
-### Stepper motor mount
+### Stepper motor and mount
 
 Components
 - 2 custom laser plates
@@ -52,7 +73,7 @@ Components
 
 ![Idler pulleys and mount](images/idler.mount2.jpg)
 
-![Idler pulleys installed](images/idler.installed.jpg)
+![Idler pulleys installed](images/idler.installed1.jpg)
 
 ![Idler pulleys installed on 2040](images/idler.2040a.jpg)
 
@@ -118,9 +139,9 @@ Components
 - 6 plastic jumpers
 
 Assembly
-- install 3 plastic jumpers on MS1, MS2, and MS3
-- attach to arduino uno
-- insert 2 stepper motor drivers (A4988) in X and Y axis
+- Install 3 plastic jumpers on MS1, MS2, and MS3
+- Attach to arduino uno
+- Insert 2 stepper motor drivers (A4988) in X and Y axis
 
 *WARNING make sure the stepper motor drivers are oriented correctly*
 
@@ -128,16 +149,11 @@ Assembly
 
 ## Software
 
-### Download arduino development environment
-
-### Download GRBL
-
-### Compile with #define CORE-XY mode
-
-### Install using avrduide
-
-### Download GRBL Universal GCODE Sender
-
-### Configure GRBL settings
-
-### Test
+Instructions
+- Download arduino development environment
+- Download GRBL
+- Compile grbl with in CORE-XY mode
+- Install grbl.hex using avrdude
+- Download GRBL Universal GCODE Sender
+- Configure GRBL settings
+- Test
