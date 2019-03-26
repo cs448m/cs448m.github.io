@@ -158,10 +158,31 @@ Assembly
 ## Software
 
 Instructions
+
 - Download arduino development environment
-- Download GRBL
-- Compile grbl with in CORE-XY mode
-- Install grbl.hex using avrdude
-- Download GRBL Universal GCODE Sender
-- Configure GRBL settings
+<https://www.arduino.cc/en/Main/Software>
+
+- Clone [GRBL 1.1](https://github.com/gnea/grbl).
+The [wiki](https://github.com/gnea/grbl/wiki)
+has instructions on how to compile using the Arduino IDE.
+
+- Follow the 
+[instructions](https://github.com/grbl/grbl/issues/996)
+to compile grbl in CORE XY mode.
+This involves uncommented the COREXY definition in `config.h`
+before compiling.
+```
+% make
+```
+
+- Connect the Arduino UNO to your laptop and install.
+
+```
+% make install
+```
+
+- Download [Universal GCODE Sender](<https://winder.github.io/ugs_website/>)
+
+- Configure GRBL settings ...
+
 - Test
