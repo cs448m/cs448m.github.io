@@ -64,7 +64,7 @@ Instructions
 
 1. Start by removing the protective paper from the acrylic plate.
 
-*WARNING Removing paper protection from acrylic may be difficult$
+*WARNING Removing paper protection from acrylic may be difficult*
 
 2. Assembly the 8 solid v-wheels. 
 This involves inserting 2 bearings into the wheel
@@ -168,14 +168,14 @@ Components
 - 2.133m GT2 timing belt
 
 Assembly
-- slide center plate onto 2040
-- attach idler pulleys to one end of 2040
-- position timing belt
-- attach stepper motor to one side of extrusion
-- slide extrusion with belt through v-wheels on center plate
-- loop timing belt through solid v-wheels
-- loop timing belt over timing pulleys attached to stepper motors
-- tension timing belt with thin t-nuts
+1 slide center plate onto 2040
+2 attach idler pulleys to one end of 2040
+3 position timing belt
+4 attach stepper motor to one side of extrusion
+5 slide extrusion with belt through v-wheels on center plate
+6 loop timing belt through solid v-wheels
+7 loop timing belt over timing pulleys attached to stepper motors
+8 tension timing belt with thin t-nuts
 
 ## Electrical
 
@@ -193,7 +193,7 @@ Instructions
 
 2 Attach line, neutral and ground to power supply terminals.
 
-*WARNING Be Careful, these are live wires*
+**WARNING Be Careful, these are live wires**
 
 ### Stepper motor shield and stepper motor drivers
 
@@ -221,7 +221,7 @@ Do this for both the X and the Y axes.
 2 Insert 2 stepper motor drivers (A4988) in X and Y axis
 headers of the stepper motor shielf. 
 
-*WARNING make sure the stepper motor drivers are oriented correctly*
+**WARNING make sure the stepper motor drivers are oriented correctly**
 
 3 Attach the stepper motor driver shield to the Arduino UNO
 
@@ -230,23 +230,23 @@ headers of the stepper motor shielf.
 5 Attach 24V DC power cables to the stepper motor shield.
 The power supply provides power to the stepper motors.
 
-*WARNING DO NOT apply motor power to the shield unless
+**WARNING DO NOT apply motor power to the shield unless
 the stepper motors as attached to the driver ships.
 Providing power when a motor is not attached 
-will short-circuit the driver chips*
+will short-circuit the driver chips**
 
 ## Software
 
 Instructions
 
-- Download arduino development environment
+1 Download arduino development environment
 <https://www.arduino.cc/en/Main/Software>
 
-- Clone [GRBL 1.1](https://github.com/gnea/grbl).
+2 Clone [GRBL 1.1](https://github.com/gnea/grbl).
 The [wiki](https://github.com/gnea/grbl/wiki)
 has instructions on how to compile using the Arduino IDE.
 
-- Follow the 
+3 Follow the 
 [instructions](https://github.com/grbl/grbl/issues/996)
 to compile grbl in CORE XY mode.
 This involves uncommented the COREXY definition in `config.h`
@@ -255,15 +255,15 @@ before compiling.
 % make
 ```
 
-- Connect the Arduino UNO to your laptop and install.
+4 Connect the Arduino UNO to your laptop and install.
 
 ```
 % make install
 ```
 
-- Download [Universal GCODE Sender](<https://winder.github.io/ugs_website/>)
+5 Download [Universal GCODE Sender](<https://winder.github.io/ugs_website/>)
 
-- Configure GRBL settings
+6 Configure GRBL settings
 
 ```
 $100=80 
@@ -274,4 +274,4 @@ $120=200
 $121=200
 ```
 
-- Test by jogging; then try plotting a square.
+7 Test by jogging; then try plotting a square.
