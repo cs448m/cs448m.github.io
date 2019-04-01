@@ -1,0 +1,5 @@
+for file in *.lg.jpg
+do
+    base=$(basename $file .lg.jpg)
+    convert $base.lg.jpg -resize 25% $base.jpg
+done
