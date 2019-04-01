@@ -7,13 +7,14 @@ This assignment is to build a working t-bot plotter.
 3. Learn how to compile, install, and run GRBL
 4. Plot a drawing
 
-## Kit
+## T-Bot Kit
 
-Picture of kit
+![T-Bot Kit](images/tbot.kit.png)
 
-BOM
+**BOM**
+
 - 2 500mm 2040 v-slot
-- 8 solid v-wheel kits (precision spacer and nylock nut)
+- 8 solid v-wheel kits (w/ 2 precision spacers and 1 nylock nut)
 - 4 eccentric spacers
 - 6 spacers 1/4"
 - 2.133m 6mm wide GT2 belt
@@ -27,7 +28,7 @@ BOM
 - 1 Meanwell LRS-150-24 24V power supply
 - 2 thin M5 t-nuts
 - 2 M5 nylock nuts
-- 6 thick M5 t-nut
+- 6 thick M5 t-nuts
 - 6 M5x8mm BHCS	
 - 10 M5x30mm BHCS
 - 4 M3x10mm BHCS 
