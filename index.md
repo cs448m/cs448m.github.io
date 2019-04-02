@@ -24,7 +24,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
 ##### Schedule:
 <table>
 <tbody>
-	<tr><td>Apr 1</td><td><b>Introduction to Making</b></td></tr>
+	<tr><td>Apr 1</td><td><b>Introduction to Making</b> <a href="/lectures/intro/making.pdf">(slides)</a></td></tr>
     <tr><td>Apr 3</td><td><b>Embroidery Machines and Paper Cutters</b>
     	<br><span class="assigned"><i>Assigned:</i>
     			<br>&emsp;<b>Assignment 0:</b> How Things are Made <b>(due Mon, Apr 7 at 12:00PM)</b>
