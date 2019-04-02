@@ -297,7 +297,10 @@
 		}
 	}
 }
-
+.assigned {
+	@include font-size(14);
+	color: #505050;
+}
 
 
 /*
