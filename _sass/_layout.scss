@@ -297,6 +297,16 @@
 		}
 	}
 }
+
+#schedule {
+	a {
+		border-bottom: 1px dotted lighten($link-color, 50);
+		&:hover {
+			border-bottom-style: solid;
+		}
+	}
+}
+
 .assigned {
 	@include font-size(14);
 	color: #505050;

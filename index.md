@@ -22,7 +22,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
 
 
 ##### Schedule:
-<table>
+<table id="schedule">
 <tbody>
 	<tr><td>Apr 1</td><td><b>Introduction to Making</b> <a href="/lectures/intro/making.pdf">(slides)</a></td></tr>
     <tr><td>Apr 3</td><td><b>Embroidery Machines and Paper Cutters</b>
