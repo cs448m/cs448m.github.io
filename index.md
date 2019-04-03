@@ -4,7 +4,6 @@ permalink: /index.html
 
 title: "Making Making Machines for Makers"
 excerpt: "Application required. Deadline to apply is Fri, Mar 29 at 11:59 pm."
-application-lnk: "https://goo.gl/forms/HnUkUczDL8sG00UL2"
 image:
   feature: jeff-wade-736518-unsplash.jpg
   credit: Jeff Wade #name of the person or site you want to credit
@@ -16,20 +15,48 @@ image:
 An introductory, project-based exploration of systems and processes for making things using computer-aided design and manufacturing, and an introduction to machines and machine tools. Emphasis will be placed on building novel machines and related software for use by "makers". Course projects will encourage students to understand, build and modify/hack a sequence of machines: 
 (1) an embroidery machine for custom textiles, (2) a paper cutting machine (with drag knife) for ornamental design, and (3) an XY plotter with Arduino controller. Through these projects students explore both (i) principles of operation (mechanical, stepper motors and servos, electrical control, computer software), and (ii) computer algorithms (trajectory, tool path, design). Current trends in interactive machines will be surveyed. The course will culminate in a final student-selected project.  
 
-##### Projects:
-This class will be project based, and students will work in small teams to complete 3 projects:
-
-1. Hack either an embroidery or paper cutting machine to make custom textiles and ornamental designs with the goal of understanding the machine.
-2. Build an XY plotter with Arduino controller.
-3. Design and build a custom machine that makes or assists in making some craft of the team's choice.
-
-##### Course Logistics:
+##### Basic Logistics
 **Lectures:**   Tue, Thu 10:30 AM - 11:50 AM, Gayes 392.  
 **Instructors:**   [Pat Hanrahan](https://graphics.stanford.edu/~hanrahan/), [Doug James](https://graphics.stanford.edu/~djames/)  
-**TA:** Anh Truong  
-**Prerequisite:** CS106A or equivalent programming experience. Students should have a desire to make things.  
-**Application Link:** [https://goo.gl/forms/HnUkUczDL8sG00UL2](https://goo.gl/forms/HnUkUczDL8sG00UL2)
+For more detailed course logistics and policies, see the [course info](/course_info.html) page.
 
+
+##### Schedule:
+<table id="schedule">
+<tbody>
+	<tr><td>Apr 1</td><td><b>Introduction to Making</b> <a href="/lectures/intro/making.pdf">(slides)</a></td></tr>
+    <tr><td>Apr 3</td><td><b>Embroidery Machines and Paper Cutters</b>
+    	<br><span class="assigned"><i>Assigned:</i>
+    			<br>&emsp;<b>Assignment 0:</b> How Things are Made <b>(due Mon, Apr 7 at 12:00PM)</b>
+    			<br>&emsp;<b>Assignment 1:</b> Make Something! <b>(due Thu, Apr 17)</b>
+    	</span></td></tr>
+    <tr><td>Apr 8</td><td><b>How Things are Made</b></td></tr>
+    <tr><td>Apr 10</td><td><b>How Machines are Made</b></td></tr>
+    <tr><td>Apr 15</td><td><b>Plotter Principles of Operation 1</b></td></tr> 
+    <tr><td>Apr 17</td><td><b>Plotter Principles of Operation 2</b>
+    	<br><span class="assigned"><i>Assigned:</i>
+    			<br>&emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter <b>(due Thu, May 1)</b>
+    	</span></td></tr>
+    <tr><td>Apr 22</td><td><b>GCODE and Trajectories</b></td></tr>
+    <tr><td>Apr 25</td><td><b>Overview of CAM</b></td></tr>
+    <tr><td>Apr 29</td><td><b>Project Pitches</b></td></tr>
+    <tr><td>May 1</td><td><b>Knitting Machines</b>
+    	<br><span class="assigned"><i>Assigned:</i>
+    			<br>&emsp;<b>Final Project (Project Proposals due May 8; Project Due June 10 at 8:30AM)</b>
+    	</span></td></tr>
+    <tr><td>May 6</td><td><b>Jigs and Fixtures</b></td></tr>
+    <tr><td>May 8</td><td><b>Interactive Machines </b></td></tr>
+    <tr><td>May 6</td><td><b>Project Discussions</b></td></tr>
+    <tr><td>May 8</td><td><b>Project Discussions</b></td></tr>
+    <tr><td>May 10</td><td><b>Guest Lecture </b></td></tr>
+    <tr><td>May 11</td><td><b>Guest Lecture</b></td></tr>
+    <tr><td>May 27</td><td><b>Silly Machines and Kinetic Art  </b></td></tr>
+    <tr><td>May 29</td><td><b>Work Session</b></td></tr>
+    <tr><td>June 3</td><td><b>Work Session</b></td></tr>
+    <tr><td>June 5</td><td><b>Work Session</b></td></tr>
+    <tr><td>June 10</td><td><b>**Mon 8:30 - 11:30** Project Demonstrations</b></td></tr>
+</tbody>
+</table>
 
 ##### Things We've Made:
 We consider ourselves "makers" and here are some examples of things that we've made. Check out [this page](/craft_inspiration.html) for other inspiration of things you can make (disclaimer, we didn't make these!) :)
