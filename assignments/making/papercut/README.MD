@@ -2,6 +2,8 @@
 
 This file contains notes on how to use the Silhouette Cameo 3 Craft Cutter.
 
+![Silhouette Cameo 3](images/cameo3.jpg)
+
 ### Getting Started with the Machine
 
 In order to do anything with the Cameo, you first have to   
@@ -86,8 +88,8 @@ You have two options for what software you can use to send your design to the ma
 		3. Create a build dir and cd into it.
 		```mkdir build && cd build```
 		4. Build the code.
-		```cmake ..
-		make```
+		```cmake ..```
+		```make```
 
 	After you've completed these steps, you should have a Robocut executable which you can click on and launch. In OSX, it will be located in your build folder.
 
@@ -111,6 +113,7 @@ For this assignment, we want you to dig into the code for these tools a bit. Tel
 
 Please make sure that there is no residual paper on the cutting mat and please place the plastic film back over the cutting mat.
 
+### Other Resources
 
-
+* [GPGL Reference](doc/GPGL.pdf)
 
