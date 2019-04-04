@@ -24,36 +24,36 @@ For more detailed course logistics and policies, see the [course info](/course_i
 ##### Schedule:
 <table id="schedule">
 <tbody>
-	<tr><td>Apr 1</td><td><b>Introduction to Making</b> <a href="/lectures/intro/making.pdf">(slides)</a></td></tr>
-    <tr><td>Apr 3</td><td><b>Embroidery Machines and Paper Cutters</b>
+	<tr><td>Apr 2</td><td><b>Introduction to Making</b> <a href="/lectures/intro/making.pdf">(slides)</a></td></tr>
+    <tr><td>Apr 4</td><td><b>Embroidery Machines and Paper Cutters</b>
     	<br><span class="assigned"><i>Assigned:</i>
-    			<br>&emsp;<b>Assignment 0:</b> How Things are Made <b>(due Mon, Apr 7 at 12:00PM)</b>
-    			<br>&emsp;<b>Assignment 1:</b> Make Something! <b>(due Thu, Apr 17)</b>
+    			<br>&emsp;<b>Assignment 0:</b> How Things are Made <b>(due Mon, Apr 8 at 12:00PM)</b>
+    			<br>&emsp;<b>Assignment 1:</b> Make Something! <b>(due Thu, Apr 18)</b>
     	</span></td></tr>
-    <tr><td>Apr 8</td><td><b>How Things are Made</b></td></tr>
-    <tr><td>Apr 10</td><td><b>How Machines are Made</b></td></tr>
-    <tr><td>Apr 15</td><td><b>Plotter Principles of Operation 1</b></td></tr> 
-    <tr><td>Apr 17</td><td><b>Plotter Principles of Operation 2</b>
+    <tr><td>Apr 9</td><td><b>How Things are Made</b></td></tr>
+    <tr><td>Apr 11</td><td><b>How Machines are Made</b></td></tr>
+    <tr><td>Apr 16</td><td><b>Plotter Principles of Operation 1</b></td></tr> 
+    <tr><td>Apr 18</td><td><b>Plotter Principles of Operation 2</b>
     	<br><span class="assigned"><i>Assigned:</i>
-    			<br>&emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter <b>(due Thu, May 1)</b>
+    			<br>&emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter <b>(due Thu, May 2)</b>
     	</span></td></tr>
-    <tr><td>Apr 22</td><td><b>GCODE and Trajectories</b></td></tr>
+    <tr><td>Apr 23</td><td><b>GCODE and Trajectories</b></td></tr>
     <tr><td>Apr 25</td><td><b>Overview of CAM</b></td></tr>
-    <tr><td>Apr 29</td><td><b>Project Pitches</b></td></tr>
-    <tr><td>May 1</td><td><b>Knitting Machines</b>
+    <tr><td>Apr 30</td><td><b>Project Pitches</b></td></tr>
+    <tr><td>May 2</td><td><b>Knitting Machines</b>
     	<br><span class="assigned"><i>Assigned:</i>
-    			<br>&emsp;<b>Final Project (Project Proposals due May 8; Project Due June 10 at 8:30AM)</b>
+    			<br>&emsp;<b>Final Project (Project Proposals due May 9; Project Due June 10 at 8:30AM)</b>
     	</span></td></tr>
-    <tr><td>May 6</td><td><b>Jigs and Fixtures</b></td></tr>
-    <tr><td>May 8</td><td><b>Interactive Machines </b></td></tr>
-    <tr><td>May 6</td><td><b>Project Discussions</b></td></tr>
-    <tr><td>May 8</td><td><b>Project Discussions</b></td></tr>
-    <tr><td>May 10</td><td><b>Guest Lecture </b></td></tr>
-    <tr><td>May 11</td><td><b>Guest Lecture</b></td></tr>
-    <tr><td>May 27</td><td><b>Silly Machines and Kinetic Art  </b></td></tr>
-    <tr><td>May 29</td><td><b>Work Session</b></td></tr>
-    <tr><td>June 3</td><td><b>Work Session</b></td></tr>
-    <tr><td>June 5</td><td><b>Work Session</b></td></tr>
+    <tr><td>May 7</td><td><b>Jigs and Fixtures</b></td></tr>
+    <tr><td>May 9</td><td><b>Interactive Machines </b></td></tr>
+    <tr><td>May 14</td><td><b>Project Discussions</b></td></tr>
+    <tr><td>May 16</td><td><b>Project Discussions</b></td></tr>
+    <tr><td>May 21</td><td><b>Guest Lecture </b></td></tr>
+    <tr><td>May 23</td><td><b>Guest Lecture</b></td></tr>
+    <tr><td>May 28</td><td><b>Silly Machines and Kinetic Art  </b></td></tr>
+    <tr><td>May 30</td><td><b>Work Session</b></td></tr>
+    <tr><td>June 4</td><td><b>Work Session</b></td></tr>
+    <tr><td>June 6</td><td><b>Work Session</b></td></tr>
     <tr><td>June 10</td><td><b>**Mon 8:30 - 11:30** Project Demonstrations</b></td></tr>
 </tbody>
 </table>
