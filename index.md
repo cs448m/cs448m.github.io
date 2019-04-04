@@ -24,11 +24,11 @@ For more detailed course logistics and policies, see the [course info](/course_i
 ##### Schedule:
 <table id="schedule">
 <tbody>
-	<tr><td>Apr 2</td><td><b>Introduction to Making</b> <a href="/lectures/intro/making.pdf">(slides)</a></td></tr>
-    <tr><td>Apr 4</td><td><b><a href="/lectures/embroidery/embroidery.pdf">Embroidery Machines</a> and Paper Cutters</b>
+	<tr><td>Apr 2</td><td><a href="/lectures/intro/making.pdf"><b>Introduction to Making</b></a></td></tr>
+    <tr><td>Apr 4</td><td><b><a href="/lectures/embroidery/embroidery.pdf"><b>Embroidery Machines</b></a> and <a href="/lectures/papercutting/papercutting.pdf">Paper Cutters</a></b>
     	<br><span class="assigned"><i>Assigned:</i>
-    			<br>&emsp;<b>Assignment 0:</b> How Things are Made <b>(due Mon, Apr 8 at 12:00PM)</b>
-    			<br>&emsp;<b>Assignment 1:</b> Make Something! <b>(due Thu, Apr 18)</b>
+    			<br><a href="/assignments/howitsmade/"> &emsp;<b>Assignment 0:</b> How Things are Made</a><b>(due Mon, Apr 8 at 12:00PM)</b>
+    			<br><a href="/assignments/making/">&emsp;<b>Assignment 1:</b> Make Something!</a> <b>(due Thu, Apr 18)</b>
     	</span></td></tr>
     <tr><td>Apr 9</td><td><b>How Things are Made</b></td></tr>
     <tr><td>Apr 11</td><td><b>How Machines are Made</b></td></tr>
