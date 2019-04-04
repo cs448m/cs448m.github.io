@@ -9,7 +9,7 @@ This goal of this assignment is to get you thinking about the process in which t
 ## Instructions
 
 1. Watch the following videos on how things are made:
-	* [Birch Barl Berry Basket](https://www.youtube.com/watch?v=tgkm_EIFADk)
+	* [Birch Bark Berry Basket](https://www.youtube.com/watch?v=tgkm_EIFADk)
 	* [Paddles](https://www.youtube.com/watch?v=EVFMM5rY7js)
 	* [Buttons](https://www.youtube.com/watch?v=YyXqS2aB2nI)
 	* [Wintergatan Marble Machine (Part 1)](https://www.youtube.com/watch?v=uog48viZUbM)
