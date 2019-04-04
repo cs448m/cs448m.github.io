@@ -23,4 +23,4 @@ Most of these videos are from the "How It's Made" series. Many of the videos for
 	* One from the "How It's Made" channel above.
 	* One other YouTube video of someone making something that you thought was interesting.
 
-We will be compile these videos online and discuss some of them in class.
+We will be compile these videos online and discuss some of them in class!
