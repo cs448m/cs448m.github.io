@@ -1,8 +1,8 @@
-#Assignment 1: Make something!
+# Assignment 1: Make something!
 
 We encourage you to work through the assignment in pairs, though we expect each person to create something individually.
 
-##Goals
+## Goals
 This assignment has two main goals:
 
 1. Design and make something cool!   
@@ -10,13 +10,13 @@ This assignment has two main goals:
 
 In this first assignment you have a choice between two machines: (1) the Brother embroidery machine or (2) the Silhouette Cameo die cutter. You will use one of these machines to make something of your choosing. Details of how to use them are given below.
 
-##Machine Options & Guides
+## Machine Options & Guides
 Brother Embroidery Machine
 ...
 Silhouette Cameo Cutting Machine
 …
 
-##Getting Started
+## Getting Started
 
 1. Choose which machine you want to craft with and sign up here: [link]
 Note that we want to keep the number of teams on each machine evenly distributed, so you may not get your first choice. 
@@ -37,9 +37,9 @@ Note that we want to keep the number of teams on each machine evenly distributed
 
 7. Create, Explore, Refine. Iterate on your designs and algorithms!
 
-##Deliverables:
+## Deliverables:
 
-###Online deliverable:
+### Online deliverable:
 1. A photo of the thing you made. If you have photos of your process, that’s a plus.
 2. A write up, which should include:
  * The names of the people in the group.
@@ -48,6 +48,6 @@ Note that we want to keep the number of teams on each machine evenly distributed
  * An analysis the the machine and the technology. What can the machine do? What can’t it do? If you were to make this by hand, what could you do that you can’t do with the machine and vice versa.
  * Answer any additional machine specific questions stated in the machine guide.
 
-###In person deliverable:
+### In person deliverable:
 Drop the thing that you made on Anh’s desk in Gates 398 by Thursday at 5PM.
 
