@@ -32,7 +32,7 @@ The standard ratchet blade which you will be using has the ability to cut a vari
 
 	![Recommended Blade Settings](images/silhouette-blade-settings.jpg)
 
-	* This image shoes the recommended speed and "thickness" as well. To minimize confusion, ignore these columns for now and we'll come back to them later when you cut. 
+	* This image shoes the recommended speed and "thickness" as well. You will be asked to specify these setting later in the software for sending your designs to the Cameo. Speed dictates how fast the machine cuts. "Thickness" dictates how much force is exerted onto the blade while cutting. The name thickness doesn't really make sense so I'll be referring to it to force or pressure. If the machine is not cutting through your material, increase the force. If the machine is causing your material to tear, decrease the force.
 
 2. [**Adjust the blade length.**](https://www.youtube.com/watch?v=q0jupRU44d4)
 
@@ -47,3 +47,70 @@ The standard ratchet blade which you will be using has the ability to cut a vari
 	Similarly, to remove the blade, unlock first by pulling the tab out.
 
 	Here is a [helpful video](https://www.youtube.com/watch?v=q0jupRU44d4) that goes into more detail for troubleshooting blade installation problems.
+
+### Making your design
+
+Design our cut template in any *vector* software you feel comfortable with (i.e., Inkscape, Illustrator, etc.). The main requirement is that you must be able to export the designs as an SVG file.
+
+When creating your design, make sure to:
+
+0. **Make the height and width of your design the height and width of your physical paper canvas in inches or mm.** Do not specify width and height in terms of pixels!
+1. **Avoid including raster images in your svg file.** The machine can't cut these anyways!   
+2. **Convert all SVG objects to paths.** The open source software we will be using to cut require that all SVG objects (such as fonts and shapes) are expressed as paths in order to do the trajectory planning.
+3. **Use an original design.** Your design must be original! This means do not take a template from the internet or take an existing image or vectorize it. If however, you want to *draw* your design by hand, you can take an image of the drawing and *vectorize* it in Inkscape or Illustrator.
+	* Tips for drawing designs by hand:
+		* Draw on white paper.
+		* Make your final design dark. Take care to cleanly erase all unwanted lines.
+		* Take a photo of the design by making your phone camera as parallel to the paper as possible. To avoid getting the camera shadow, in your image, I find that it's helpful to take the photo from farther away and use zoom to frame only the design in the photo.
+		* [Use Inkscape to vectorize the image.](http://goinkscape.com/how-to-vectorize-in-inkscape/)
+
+### Software for Sending the Design to the Machine
+
+You have two options for what software you can use to send your design to the machine. If you want to design your own path planning algorithm and do usb programming to send those commands to the machine, you may do that too. Also feel free to modify the code for this software. If you do, please tell us what you did and why in your writeup.
+
+1. [**Robocut**](http://robocut.org/)
+
+	This is a simple program that takes in an SVG file, plans a cutting path, and sends that cutting path to the machine for cutting. Note that the website itself isn't very descriptive so I'll try to give you some more guidance here.
+
+	** Installation **
+
+	1. Go to the GitHub repo at [https://github.com/Timmmm/robocut](https://github.com/Timmmm/robocut).
+
+	2. For Windows and Linux installations, follow the instructions in the repo.
+
+	3. For OSX, you'll have to build from source. Here's how to do so:
+		1. First, clone the repo and cd into it:   
+		```git clone https://github.com/Timmmm/robocut.git && cd robocut```
+		2. Pull submodules.
+		```git submodule update --init --recursive```
+		3. Create a build dir and cd into it.
+		```mkdir build && cd build```
+		4. Build the code.
+		```cmake ..
+		make```
+
+	After you've completed these steps, you should have a Robocut executable which you can click on and launch. In OSX, it will be located in your build folder.
+
+	**Importing and Cutting**
+
+	1. Import your SVG. Go to File>>Open, and select your file.
+	2. Send your SVG to the machine. Go to File>>Cut.
+	3. When you do this, a dialog should pop up with cut settings for you to specify. 
+		* First, choose your material from the dropdown.
+		* Next, set your ```speed``` and ```thickness``` values. These should have autopopulated when you selected a material, but you can choose to modify them. 
+
+2. [**Silhouette Inkscape**](https://github.com/fablabnbg/inkscape-silhouette)
+
+	This is an Inkscape extension that enables you to send your designs straight from Inkscape. To use it, navigate to the [github repo](https://github.com/fablabnbg/inkscape-silhouette) and follow instructions for installation and use. It's fairly well documented.
+
+#### Specific Writeup Instructions
+
+For this assignment, we want you to dig into the code for these tools a bit. Tell us which tool you decided to use, how that tool does its path planning (i.e., what decisions it makes), and hypothesize about why it makes those decisions.
+
+### Cleaning up
+
+Please make sure that there is no residual paper on the cutting mat and please place the plastic film back over the cutting mat.
+
+
+
+

@@ -14,7 +14,7 @@ In this first assignment you have a choice between two machines: (1) the Brother
 ## Machine Guides
 * [Brother Embroidery Machine](https://github.com/cs448m/cs448m.github.io/tree/master/assignments/making/embroidery)   
 
-* Silhouette Cameo Cutting Machine
+* [Silhouette Cameo Cutting Machine]((https://github.com/cs448m/cs448m.github.io/tree/master/assignments/making/papercut)
 
 
 ## Getting Started
