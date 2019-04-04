@@ -16,10 +16,14 @@ This goal of this assignment is to get you thinking about the process in which t
 	* [Pasta Maker](https://www.youtube.com/watch?v=b5kpSjpbnL4)
 	* [Silk Fiber Lamps](https://www.youtube.com/watch?v=BRopZw4Z_Pg)
 
-
 Most of these videos are from the "How It's Made" series. Many of the videos for the series can be found at [this YouTube channel.](https://www.youtube.com/channel/UCWBkudOTaVbvkCBc0pyZFMA/videos)
 
-2. Use [this Google form](https://forms.gle/phvZPoGpTzxRrTme7) to send us two additional videos:
+2. Think of an object that you have wondered about how it is imade,
+or an object that you want to make. Find a video from the series
+that shows how its made. Also, search on the web for makers with videos
+about crafts you are interested in. 
+
+Use [this Google form](https://forms.gle/phvZPoGpTzxRrTme7) to send us two additional videos:
 	* One from the "How It's Made" channel above.
 	* One other YouTube video of someone making something that you thought was interesting.
 
