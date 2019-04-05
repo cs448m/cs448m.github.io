@@ -53,6 +53,11 @@ If you google _free pes designs_ you will find many different patterns.
 For your first experiment, choose a simple pattern 
 with a single thread color.
 
+A useful tool is the following browser-based 
+[embroidery file viewer](https://backface.github.io/html5-embroidery/).
+Go to this site, 
+and then drag and drop your file onto the page.
+
 Next set up the machine for embroidery.
 The embroidery machine has the embroidery unit and foot installed.
 The instructions for using the machine embroidery
@@ -162,6 +167,4 @@ You can also create designs in Inkscape.
 [More PEC](https://edutechwiki.unige.ch/en/Embroidery_format_PEC)
 
 [DST]()
-
-[File viewer](https://backface.github.io/html5-embroidery/)
 
