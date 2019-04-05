@@ -58,14 +58,12 @@ The embroidery machine has the embroidery unit and foot installed.
 The instructions for using the machine embroidery
 begin on page 117 of the manual.
 
-Here a short video of that shows how to use the machine.
-
-![First Embroidery](https://www.youtube.com/watch?v=CNbSRyW7Ai0)
-
-Brother also has a DVD of instructional videos for the machine,
-which are available on youtube.
-
-![Instructional Videos](https://www.youtube.com/watch?v=-G-EFea7EWY&list=PLa4UjzMl4KKt9Q5CMrMJtOtmhK8rona0T)
+Here a short 
+[video](https://www.youtube.com/watch?v=CNbSRyW7Ai0)
+that shows how to use the machine.
+Brother also has a DVD of 
+[instructional videos](https://www.youtube.com/watch?v=-G-EFea7EWY&list=PLa4UjzMl4KKt9Q5CMrMJtOtmhK8rona0T)
+for the machine.
 
 To summarize the steps:
 
