@@ -128,15 +128,20 @@ and other programs that were shown during class.
 
 To run this program, you need to install `pyembroidery`,
 which is available in the following 
-repo [pyembroidery](https://github.com/EmbroidePy/pyembroidery).
+[repo](https://github.com/EmbroidePy/pyembroidery).
 
-This directory also contains a program that created an `SVG` file, `gc.py`.
-
+The [code directory](code) 
+also contains a python program that created a simple `SVG` file, `gc.py`.
 One convenient way to convert SVG files to PES files is to use 
 [inkstitch](inkstitch.org).
 Inkstitch in an [inkscape](inkscape.org) extension.
 You will need to go to these web sites 
 and download and install this software.
+
+You can also any drawing program (e.g. Illustrator)
+to create a design.
+Just save it as an SVG file, and read it into Inkscape.
+You can also create designs in Inkscape.
 
 ## Manuals
 
