@@ -31,7 +31,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     			<br><a href="/assignments/making/">&emsp;<b>Assignment 1:</b> Make Something!</a> <b>(due Thu, Apr 18)</b>
     	</span></td></tr>
     <tr><td>Apr 9</td><td><b>How Things are Made</b></td></tr>
-    <tr><td>Apr 11</td><td><b>How Machines are Made</b></td></tr>
+    <tr><td>Apr 11</td><td><a href="/lectures/machines/machines.pdf"><b>What is a Machine?</b></a></td></tr>
     <tr><td>Apr 16</td><td><b>Plotter Principles of Operation 1</b></td></tr> 
     <tr><td>Apr 18</td><td><b>Plotter Principles of Operation 2</b>
     	<br><span class="assigned"><i>Assigned:</i>
