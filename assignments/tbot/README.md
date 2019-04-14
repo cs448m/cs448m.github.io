@@ -13,7 +13,7 @@ This assignment is to build a working t-bot plotter.
 
 **BOM**
 
-- 2 500mm 2040 v-slot
+- 2 x 500mm 2040 v-slot
 - 8 [solid v-wheel kits](https://openbuildspartstore.com/solid-v-wheel-kit/)
  (w/ 2 precision spacers and 1 nylock nut)
 - 4 eccentric spacers
@@ -222,12 +222,11 @@ The plotter only uses two of them,
 one for X and one for Y.
 
 1. The plastic jumpers are used to configure 
-the stepper motor driver for microstepping.
-Slide 3 jumpers over the headers MS1, MS2, and MS3.
-This configures the driver to 16 microsteps.
+the CNC SHIELD's stepper motor drivers for microstepping.
+Slide 3 jumpers over the headers M0, M1, and M2 ([see diagram](https://www.zyltech.com/product_images/uploaded_images/arduino-cnc-shield-micro-stepping-settings.jpg)) to  configure the driver to 16 microsteps.
 Do this for both the X and the Y axes.
 
-2. Insert 2 stepper motor drivers (A4988) in X and Y axis headers of the stepper motor shield. 
+2. Insert 2 stepper motor drivers (A4988) in X and Y axis sockets of the stepper motor shield. 
 
 	**WARNING: Make sure that the stepper motor drivers are oriented correctly.**
 
