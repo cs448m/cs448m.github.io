@@ -1,46 +1,3 @@
-<style type="text/css" rel="stylesheet">
-#bom {
-	display: inline-block;
-	width: 25%;
-	margin-right: 1%;
-	vertical-align: top;
-	word-wrap: break-word;
-
-}
-
-#materials img{
-	width: 73%;
-	vertical-align: top;
-
-}
-
-.col-txt {
-	width: 50%;
-	word-wrap: break-word;
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 5%;
-}
-
-.note{
-	color: #a9a9a9;
-	font-style: italic;
-	font-size: 12pt;
-}
-
-.col-img{
-	display: inline-block;
-	vertical-align: top;
-	width: 30%;
-
-	img{
-		width: 100%;
-		margin-bottom: 5px;
-	}
-}
-</style>
-
-
 ## Goals
 
 This assignment is to build a working t-bot plotter.
@@ -55,7 +12,7 @@ This assignment is to build a working t-bot plotter.
 **Bill of Materials**
 
 <div id="materials">
-	<div id="bom" style="display: inline-block; width: 25%; margin-right: 1%; vertical-align: top; word-wrap: break-word;">
+	<div id="bom">
 		<ul>
 			<li>2 x 500mm 2040 v-slot</li>
 			<li>8 [solid v-wheel kits](https://openbuildspartstore.com/solid-v-wheel-kit/)</li>
@@ -81,7 +38,7 @@ This assignment is to build a working t-bot plotter.
 			<li>1 SG90 9g micro servo</li>
 		</ul>
 	</div>
-	<img style="width: 73%;	vertical-align: top;" src="images/tbot.kit.png">
+	<img src="images/tbot.kit.png">
 </div>
 
 ## Mechanical
