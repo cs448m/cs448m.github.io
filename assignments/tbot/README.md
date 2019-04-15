@@ -1,3 +1,8 @@
+---
+layout: landing
+
+---
+
 ## Goals
 
 This assignment is to build a working t-bot plotter.
