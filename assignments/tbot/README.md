@@ -1,3 +1,46 @@
+<style type="text/css" rel="stylesheet">
+#bom {
+	display: inline-block;
+	width: 25%;
+	margin-right: 1%;
+	vertical-align: top;
+	word-wrap: break-word;
+
+}
+
+#materials img{
+	width: 73%;
+	vertical-align: top;
+
+}
+
+.col-txt {
+	width: 50%;
+	word-wrap: break-word;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+}
+
+.note{
+	color: #a9a9a9;
+	font-style: italic;
+	font-size: 12pt;
+}
+
+.col-img{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+
+	img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+</style>
+
+
 ## Goals
 
 This assignment is to build a working t-bot plotter.
@@ -9,47 +52,42 @@ This assignment is to build a working t-bot plotter.
 
 ## T-Bot Kit
 
-![T-Bot Kit](images/tbot.kit.png)
+**Bill of Materials**
 
-**BOM**
-
-- 2 x 500mm 2040 v-slot
-- 8 [solid v-wheel kits](https://openbuildspartstore.com/solid-v-wheel-kit/)
- (w/ 2 precision spacers and 1 nylock nut)
-- 4 eccentric spacers
-- 6 spacers 1/4"
-- 2.133m 6mm wide GT2 belt
-- 2 GT2 smooth pulley
-- 2 GT2 timing pulleys, 20t
-- 1 arduino uno R3
-- 1 stepper motor driver shield	
-- 2 stepper motor driver
-- 2 NEMA-17 stepper motors
-- 1 IEC power cord
-- 1 Mean Well LRS-150-24 24V power supply
-- 2 thin M5 t-nuts
-- 2 M5 nylock nuts
-- 6 thick M5 t-nuts
-- 6 M5x8mm SHCS	
-- 10 M5x30mm BHCS
-- 4 M3x10mm SHCS 
-- 2 Omron snap-action switches
-- 1 SG90 9g micro servo
+<div id="materials">
+	<div id="bom">
+		<ul>
+			<li>2 x 500mm 2040 v-slot</li>
+			<li>8 [solid v-wheel kits](https://openbuildspartstore.com/solid-v-wheel-kit/)</li>
+			 (w/ 2 precision spacers and 1 nylock nut)
+			<li>4 eccentric spacers</li>
+			<li>6 spacers 1/4"</li>
+			<li>2.133m 6mm wide GT2 belt</li>
+			<li>2 GT2 smooth pulley</li>
+			<li>2 GT2 timing pulleys, 20t</li>
+			<li>1 arduino uno R3</li>
+			<li>1 stepper motor driver shield	</li>
+			<li>2 stepper motor driver</li>
+			<li>2 NEMA-17 stepper motors</li>
+			<li>1 IEC power cord</li>
+			<li>1 Mean Well LRS-150-24 24V power supply</li>
+			<li>2 thin M5 t-nuts</li>
+			<li>2 M5 nylock nuts</li>
+			<li>6 thick M5 t-nuts</li>
+			<li>6 M5x8mm SHCS	</li>
+			<li>10 M5x30mm BHCS</li>
+			<li>4 M3x10mm SHCS </li>
+			<li>2 Omron snap-action switches</li>
+			<li>1 SG90 9g micro servo</li>
+		</ul>
+	</div>
+	<img src="images/tbot.kit.png">
+</div>
 
 ## Mechanical
 
 
 ### Assembling center plate
-
-*CAD drawing an image of a blank plate*
-
-![Center plate](images/center1.jpg)
-
-![Center plate](images/center2.jpg)
-
-![Center plate](images/center3.jpg)
-
-![Center plate](images/center4.jpg)
 
 **Components**
 
@@ -61,42 +99,50 @@ This assignment is to build a working t-bot plotter.
 
 **Instructions**
 
-1. Start by removing the protective paper from the acrylic plate.
+<span class="note"> ** Click on an image to view a larger version of it.</span>
 
-	*WARNING: (1) The edges of laser-cut acrylic can be sharp and may require scraping or sanding; (2) Removing paper protection from acrylic may be difficult.*
+<div id="center-plate" class="two-col">
 
-2. Assemble the 8 solid v-wheels. 
-This involves inserting 2 bearings into the wheel
-with a precision shim placed between the bearings. 
-[[Solid v-wheel kit assembly video]](https://www.youtube.com/watch?v=YtkGiLg2edk)
+<div class="col-txt">
+	<ol>
+		<li> Start by removing the protective paper from the acrylic plate. <br/><br/>
+			<i>WARNING: (1) The edges of laser-cut acrylic can be sharp and may require scraping or sanding; (2) Removing paper protection from acrylic may be difficult.</i></li>
+		<li> Assemble the 8 solid v-wheels. 
+			This involves inserting 2 bearings into the wheel
+			with a precision shim placed between the bearings. <a href="https://www.youtube.com/watch?v=YtkGiLg2edk">Solid v-wheel kit assembly video</a></li>
+		<li> Attach 4 solid v-wheels to one slide of the center plate.
+			Each v-wheel requires 1 M5x30mm cap screw,
+			a v-wheel, a 1/4" spacer or eccentric spacer,
+			2 precision shims, and a nylon nut.
+			First, insert the 4 machine screws facing up,
+			then place a spacer and 2 shims on each bolt.
+			Next add the v-wheel, 
+			and then place the nylon nut and hand tighten.
+			The plate's large holes are for the eccentric spacers. <br/><br/>
+			Note that as the eccentric spacer is rotated 
+			the off-axis center hole causes the center of the
+			spacer to move relative to the center of the plate.
+			Orient the eccentric spacer so that the notch is facing outward;
+			aligning it in this way creates the maximum distance 
+			between the opposing wheels.</li>
+		<li> Flip the plate over and attach 4 more solid wheels on the other side.</li>
+		<li> Insert a piece of 2040 through the wheels on the top.
+			Adjust the eccentric spacers to achieve smooth motion.
+			The wheels should fit tightly against the 2040 so that there is no play,
+			yet not so tight that you cannot rotate the wheels by hand.
+			Repeat this process for the 2040 on the bottom.<br/><br/>
+			<i>WARNING: The edges of the 2040 are sharp, and can damage the wheels when inserted into the assembly. Assemble the 2040 & wheel assembly once, then tighten the elliptical spacers last.</i></li>
+	</ol>
+</div>
+<div class="col-img">
+	<a href="images/center0.jpg" target="_blank"><img src="images/center0.jpg"/></a>
+	<a href="images/center1.lg.jpg" target="_blank"><img src="images/center1.jpg"/></a>
+	<a href="images/center2.lg.jpg" target="_blank"><img src="images/center2.jpg"/></a>
+	<a href="images/center3.lg.jpg" target="_blank"><img src="images/center3.jpg"/></a>
+	<a href="images/center4.lg.jpg" target="_blank"><img src="images/center4.jpg"/></a>
+</div>
 
-3. Attach 4 solid v-wheels to one slide of the center plate.
-Each v-wheel requires 1 M5x30mm cap screw,
-a v-wheel, a 1/4" spacer or eccentric spacer,
-2 precision shims, and a nylon nut.
-First, insert the 4 machine screws facing up,
-then place a spacer and 2 shims on each bolt.
-Next add the v-wheel, 
-and then place the nylon nut and hand tighten.
-The plate's large holes are for the eccentric spacers.
-
-	Note that as the eccentric spacer is rotated 
-the off-axis center hole causes the center of the
-spacer to move relative to the center of the plate.
-Orient the eccentric spacer so that the notch is facing outward;
-aligning it in this way creates the maximum distance 
-between the opposing wheels.
-
-3. Flip the plate over and attach 4 more solid wheels on the other side.
-
-4. Insert a piece of 2040 through the wheels on the top.
-Adjust the eccentric spacers to achieve smooth motion.
-The wheels should fit tightly against the 2040 so that there is no play,
-yet not so tight that you cannot rotate the wheels by hand.
-Repeat this process for the 2040 on the bottom.
-
-
-	*WARNING: The edges of the 2040 are sharp, and can damage the wheels when inserted into the assembly. Assemble the 2040 & wheel assembly once, then tighten the elliptical spacers last.*
+</div>
 
 ### Stepper motor and mount
 
@@ -111,30 +157,30 @@ Repeat this process for the 2040 on the bottom.
 
 **Instructions**
 
-1. Attach the stepper motor to the motor mounting plate using 4 M3 SHCS.
+<span class="note"> ** Click on an image to view a larger version of it.</span>
 
-2. Slide 2 x M5 machine screws through the center holes of the mounting plate. 
-Attach a t-nut to each screw.
+<div id="center-plate" class="two-col">
 
-3. Attach the timing pulley to the shaft of the stepper motor.
-Note that the shaft has a flat side. 
-Align one of the set screws so that it pushes against the flat side.
+<div class="col-txt">
+	<ol>
+	<li>Attach the stepper motor to the motor mounting plate using 4 M3 SHCS.</li>
+	<li>Slide 2 x M5 machine screws through the center holes of the mounting plate.
+	Attach a t-nut to each screw.</li>
+	<li>Attach the timing pulley to the shaft of the stepper motor.
+	Note that the shaft has a flat side. 
+	Align one of the set screws so that it pushes against the flat side.</li>
+	<li>Repeat this process for the second stepper motor.</li>
+	</ol>
+</div>
 
-4. Repeat this process for the second stepper motor.
+<div class="col-img">
+	<a href="images/stepper0.jpg" target="_blank"><img src="images/stepper0.jpg"/></a>
+	[image of plate with screws and t-nut but no pulley]<br>
+	[image of finished stepper plate]
+</div>
+</div>
 
 ### Idler pulleys and mount
-
-![Idler pulleys and mount](images/idler.mount1.jpg)
-
-![Idler pulleys and mount](images/idler.mount2.jpg)
-
-![Idler pulleys installed](images/idler.installed1.jpg)
-
-![Idler pulleys installed on 2040](images/idler.2040a.jpg)
-
-![Idler pulleys installed on 2040](images/idler.2040b.jpg)
-
-![Idler pulleys installed on 2040](images/idler.2040c.jpg)
 
 **Components**
 
@@ -146,25 +192,34 @@ Align one of the set screws so that it pushes against the flat side.
 
 **Instructions**
 
-Attach smooth pulleys to the mounting plate.
+<span class="note"> ** Click on an image to view a larger version of it.</span>
 
-1. Insert 30mm cap screw through one side,
-then on the other side add the spacer, the pulley,
-and then tighten with a nut.
+<div id="center-plate" class="two-col">
 
-2. Repeat for the 2nd pulley.
+<div class="col-txt">
+	Attach smooth pulleys to the mounting plate.
+	<ol>
+		<li>Insert 30mm cap screw through one side,
+			then on the other side add the spacer, the pulley,
+			and then tighten with a nut.</li>
+		<li>Repeat for the 2nd pulley.</li>
+		<li>Add 2 x 10mm machine screws and t-nuts.</li>
+	</ol>
+</div>
 
-3. Add 2 x 10mm machine screws and t-nuts.
+<div class="col-img">
+<a href="images/idler-drawing.jpg" target="_blank"><img alt="Idler mount" src="images/idler-drawing.jpg"></a>
+<a href="images/idler.mount1.lg.jpg" target="_blank"><img alt="Idler pulleys and mount" src="images/idler.mount1.jpg"></a>
+<a href="images/idler.mount2.lg.jpg" target="_blank"><img alt="Idler pulleys and mount" src="images/idler.mount2.jpg"></a>
+<a href="images/idler.installed1.lg.jpg" target="_blank"><img alt="Idler pulleys installed" src="images/idler.installed1.jpg"></a>
+<a href="images/idler.2040a.lg.jpg" target="_blank"><img alt="Idler pulleys installed on 2040" src="images/idler.2040a.jpg"></a>
+<a href="images/idler.2040b.lg.jpg" target="_blank"><img alt="Idler pulleys installed on 2040" src="images/idler.2040b.jpg"></a>
+<a href="images/idler.2040c.lg.jpg" target="_blank"><img alt="Idler pulleys installed on 2040" src="images/idler.2040c.jpg"></a>
+</div>
+</div>
+
 
 ### Assembling tbot
-
-![center plate](images/stepper.center1.jpg)
-
-![center plate](images/stepper.center2.jpg)
-
-![2 stepper motors and center plate](images/center.stepper.jpg)
-
-![center plate](images/tbot1.jpg)
 
 **Components**
 
@@ -175,20 +230,33 @@ and then tighten with a nut.
 
 **Assembly**
 
-1. Slide center plate onto 2040.
-2. Attach idler pulleys to one end of 2040.
-3. Position timing belt.
-4. Attach stepper motor to one side of extrusion.
-5. Slide extrusion with belt through v-wheels on center plate.
-6. Loop timing belt through solid v-wheels.
-7. Loop timing belt over timing pulleys attached to stepper motors.
-8. Adjust timing-belt tension using the thin t-nuts.
+<span class="note"> ** Click on an image to view a larger version of it.</span>
+
+<div id="center-plate" class="two-col">
+
+<div class="col-txt">
+	<ol>
+		<li>Slide center plate onto 2040.</li>
+		<li>Attach idler pulleys to one end of 2040.</li>
+		<li>Position timing belt.</li>
+		<li>Attach stepper motor to one side of extrusion.</li>
+		<li>Slide extrusion with belt through v-wheels on center plate.</li>
+		<li>Loop timing belt through solid v-wheels.</li>
+		<li>Loop timing belt over timing pulleys attached to stepper motors.</li>
+		<li>Adjust timing-belt tension using the thin t-nuts.</li>
+	</ol>
+</div>
+<div class="col-img">
+	<a href="images/stepper.center1.lg.jpg"><img alt="center plate" src="images/stepper.center1.jpg"></a>
+	<a href="images/stepper.center2.lg.jpg"><img alt="center plate" src="images/stepper.center2.jpg"></a>
+	<a href="images/center.stepper.lg.jpg"><img alt="2 stepper motors and center plate" src="images/center.stepper.jpg"></a>
+	<a href="images/tbot1.lg.jpg"><img alt="center plate" src="images/tbot1.jpg"></a>
+</div></div>
+
 
 ## Electrical
 
 ### Power supply
-
-![center plate](images/power.supply.jpg)
 
 **Components**
 
@@ -197,15 +265,23 @@ and then tighten with a nut.
 
 **Instructions**
 
-1. Slide switch on power supply to 115 VAC position.
+<span class="note"> ** Click on an image to view a larger version of it.</span>
 
-2. Attach line, neutral and ground to power supply terminals.
+<div id="center-plate" class="two-col">
 
-	**WARNING: Be Careful! These are live wires.**
+<div class="col-txt">
+	<ol>
+		<li>Slide switch on power supply to 115 VAC position.</li>
+		<li>Attach line, neutral and ground to power supply terminals.<br/><br/>
+		<b>WARNING: Be Careful! These are live wires.</b></li>
+	</ol>
+</div>
+<div class="col-img">
+	<a href="images/power.supply.lg.jpg"><img src="images/power.supply.jpg"></a>
+</div>
+</div>
 
 ### Stepper motor shield and stepper motor drivers
-
-![center plate](images/arduino.jpg)
 
 **Components**
 
@@ -216,31 +292,36 @@ and then tighten with a nut.
 
 **Instructions**
 
+<span class="note"> ** Click on an image to view a larger version of it.</span>
+
+<div id="center-plate" class="two-col">
+
+<div class="col-txt">
 The stepper motor shield has space for 
 4 stepper motor driver chips.
 The plotter only uses two of them,
 one for X and one for Y.
-
-1. The plastic jumpers are used to configure 
-the CNC SHIELD's stepper motor drivers for microstepping.
-Slide 3 jumpers over the headers M0, M1, and M2 ([see diagram](https://www.zyltech.com/product_images/uploaded_images/arduino-cnc-shield-micro-stepping-settings.jpg)) to  configure the driver to 16 microsteps.
-Do this for both the X and the Y axes.
-
-2. Insert 2 stepper motor drivers (A4988) in X and Y axis sockets of the stepper motor shield. 
-
-	**WARNING: Make sure that the stepper motor drivers are oriented correctly.**
-
-3. Attach the stepper motor driver shield to the Arduino UNO
-
-4. Attach stepper motor cables to the 4 pin headers.
-
-5. Attach 24V DC power cables to the stepper motor shield.
-The power supply provides power to the stepper motors.
-
-	**WARNING: DO NOT apply motor power to the shield unless
-the stepper motors as attached to the driver chips.
-Providing power when a motor is not attached 
-will short-circuit the driver chips.**
+	<ol>
+		<li>The plastic jumpers are used to configure 
+		the CNC SHIELD's stepper motor drivers for microstepping.
+		Slide 3 jumpers over the headers M0, M1, and M2 (<a href="https://www.zyltech.com/product_images/uploaded_images/arduino-cnc-shield-micro-stepping-settings.jpg">see diagram</a>) to  configure the driver to 16 microsteps.
+		Do this for both the X and the Y axes.</li>
+		<li>Insert 2 stepper motor drivers (A4988) in X and Y axis sockets of the stepper motor shield.<br/><br/>
+		<b>WARNING: Make sure that the stepper motor drivers are oriented correctly.</b></li>
+		<li>Attach the stepper motor driver shield to the Arduino UNO</li>
+		<li>Attach stepper motor cables to the 4 pin headers.</li>
+		<li>Attach 24V DC power cables to the stepper motor shield.
+			The power supply provides power to the stepper motors.<br/><br/>
+			<b>WARNING: DO NOT apply motor power to the shield unless
+			the stepper motors as attached to the driver chips.
+			Providing power when a motor is not attached 
+			will short-circuit the driver chips.</b></li>
+	</ol>
+</div>
+<div class="col-img">
+	<a href="images/arduino.lg.jpg"><img src="images/arduino.jpg"></a>
+</div>
+</div>
 
 ## Software
 
