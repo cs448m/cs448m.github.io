@@ -1,7 +1,44 @@
----
-layout: landing
+<style>
+#bom {
+	display: inline-block;
+	width: 25%;
+	margin-right: 1%;
+	vertical-align: top;
+	word-wrap: break-word;
 
----
+}
+
+#materials img{
+	width: 73%;
+	vertical-align: top;
+
+}
+
+.col-txt {
+	width: 50%;
+	word-wrap: break-word;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+}
+
+.note{
+	color: #a9a9a9;
+	font-style: italic;
+	font-size: 12pt;
+}
+
+.col-img{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+
+	img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+</style>
 
 ## Goals
 
