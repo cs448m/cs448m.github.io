@@ -55,7 +55,7 @@ This assignment is to build a working t-bot plotter.
 **Bill of Materials**
 
 <div id="materials">
-	<div id="bom">
+	<div id="bom" style="display: inline-block; width: 25%; margin-right: 1%; vertical-align: top; word-wrap: break-word;">
 		<ul>
 			<li>2 x 500mm 2040 v-slot</li>
 			<li>8 [solid v-wheel kits](https://openbuildspartstore.com/solid-v-wheel-kit/)</li>
@@ -81,7 +81,7 @@ This assignment is to build a working t-bot plotter.
 			<li>1 SG90 9g micro servo</li>
 		</ul>
 	</div>
-	<img src="images/tbot.kit.png">
+	<img style="width: 73%;	vertical-align: top;" src="images/tbot.kit.png">
 </div>
 
 ## Mechanical
