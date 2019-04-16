@@ -38,6 +38,11 @@
 		margin-bottom: 5px;
 	}
 }
+
+.grid-img img{
+	height: 200px;
+	margin: 2px;
+}
 </style>
 
 ## Goals
@@ -158,7 +163,7 @@ This assignment is to build a working t-bot plotter.
 
 <span class="note"> ** Click on an image to view a larger version of it.</span>
 
-<div id="center-plate" class="two-col">
+<div id="stepper" class="two-col">
 
 <div class="col-txt">
 	<ol>
@@ -193,9 +198,7 @@ This assignment is to build a working t-bot plotter.
 
 <span class="note"> ** Click on an image to view a larger version of it.</span>
 
-<div id="center-plate" class="two-col">
-
-<div class="col-txt">
+<div id="idler">
 	Attach smooth pulleys to the mounting plate.
 	<ol>
 		<li>Insert 30mm cap screw through one side,
@@ -206,7 +209,7 @@ This assignment is to build a working t-bot plotter.
 	</ol>
 </div>
 
-<div class="col-img">
+<div class="grid-img">
 <a href="images/idler-drawing.jpg" target="_blank"><img alt="Idler mount" src="images/idler-drawing.jpg"></a>
 <a href="images/idler.mount1.lg.jpg" target="_blank"><img alt="Idler pulleys and mount" src="images/idler.mount1.jpg"></a>
 <a href="images/idler.mount2.lg.jpg" target="_blank"><img alt="Idler pulleys and mount" src="images/idler.mount2.jpg"></a>
@@ -214,7 +217,6 @@ This assignment is to build a working t-bot plotter.
 <a href="images/idler.2040a.lg.jpg" target="_blank"><img alt="Idler pulleys installed on 2040" src="images/idler.2040a.jpg"></a>
 <a href="images/idler.2040b.lg.jpg" target="_blank"><img alt="Idler pulleys installed on 2040" src="images/idler.2040b.jpg"></a>
 <a href="images/idler.2040c.lg.jpg" target="_blank"><img alt="Idler pulleys installed on 2040" src="images/idler.2040c.jpg"></a>
-</div>
 </div>
 
 
@@ -231,7 +233,7 @@ This assignment is to build a working t-bot plotter.
 
 <span class="note"> ** Click on an image to view a larger version of it.</span>
 
-<div id="center-plate" class="two-col">
+<div id="assembly" class="two-col">
 
 <div class="col-txt">
 	<ol>
@@ -266,7 +268,7 @@ This assignment is to build a working t-bot plotter.
 
 <span class="note"> ** Click on an image to view a larger version of it.</span>
 
-<div id="center-plate" class="two-col">
+<div id="Electrical" class="two-col">
 
 <div class="col-txt">
 	<ol>
@@ -293,7 +295,7 @@ This assignment is to build a working t-bot plotter.
 
 <span class="note"> ** Click on an image to view a larger version of it.</span>
 
-<div id="center-plate" class="two-col">
+<div id="drivers" class="two-col">
 
 <div class="col-txt">
 The stepper motor shield has space for 
