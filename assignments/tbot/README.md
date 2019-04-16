@@ -328,8 +328,7 @@ one for X and one for Y.
 
 **Instructions**
 
-1. Download Arduino development environment
-<https://www.arduino.cc/en/Main/Software>
+1. Download Arduino development environment <https://www.arduino.cc/en/Main/Software>
 
 2. Clone [GRBL 1.1](https://github.com/gnea/grbl).
 The [wiki](https://github.com/gnea/grbl/wiki)
@@ -353,15 +352,13 @@ before compiling.
 5. Download [Universal GCODE Sender](<https://winder.github.io/ugs_website/>). Check your GRBL settings by entering "$$"
 
 6. Configure GRBL settings by entering these values:
-
-	```
-	$100=80 
-	$101=80
-	$110=2500
-	$111=2500
-	$120=200
-	$121=200
-	```
+	
+	`$100=80`  
+	`$101=80`  
+	`$110=2500`  
+	`$111=2500`  
+	`$120=200`  
+	`$121=200`
 
 7. Test by jogging, then try plotting a square.
 
