@@ -32,7 +32,9 @@ For more detailed course logistics and policies, see the [course info](/course_i
     	</span></td></tr>
     <tr><td>Apr 9</td><td><b>How Things are Made</b></td></tr>
     <tr><td>Apr 11</td><td><a href="/lectures/machines/machines.pdf"><b>What is a Machine?</b></a></td></tr>
-    <tr><td>Apr 16</td><td><b>Plotter Principles of Operation 1</b></td></tr> 
+    <tr><td>Apr 16 </td>
+       <td><a href="/lectures/tbot/tbot1.pdf"><b>Plotter Principles of Operation 1</b></a></td>
+   </tr> 
     <tr><td>Apr 18</td><td><b>Plotter Principles of Operation 2</b>
     	<br><span class="assigned"><i>Assigned:</i>
     			<br>&emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter <b>(due Thu, May 2)</b>
