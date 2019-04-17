@@ -8,10 +8,21 @@
 
 }
 
-#materials img{
+#build-img{
+	width: 100%;
+
+}
+
+#mat-imgs {
 	width: 73%;
 	vertical-align: top;
+	display: inline-block;
+	
+}
 
+.mat-label {
+	font-weight: bold;
+	color: green;
 }
 
 .col-txt {
@@ -43,6 +54,19 @@
 	height: 200px;
 	margin: 2px;
 }
+
+#mat-grid {
+	width: 100%;
+	display: inline-block;
+}
+
+#mat-grid.grid-img img{
+		height: 120px;
+		margin: 5px;
+		padding: 2px;
+	}
+
+
 </style>
 
 ## Goals
@@ -61,34 +85,48 @@ This assignment is to build a working t-bot plotter.
 <div id="materials">
 	<div id="bom">
 		<ul>
-			<li>2 x 500mm 2040 v-slot (A)</li>
-			<li>8 <a href="https://openbuildspartstore.com/solid-v-wheel-kit/">solid v-wheel kits</a>[w/ 2 precision spacers and 1 nylock nut] (B)</li>
-			<li>4 eccentric spacers (C)</li>
-			<li>6 spacers 1/4" (D)</li>
-			<li>2.133m 6mm wide GT2 belt (E)</li>
-			<li>2 GT2 smooth pulley (F)</li>
-			<li>2 GT2 timing pulleys, 20t (G)</li>
-			<li>1 arduino uno R3 (H)</li>
-			<li>1 stepper motor driver shield (I)</li>
-			<li>2 stepper motor driver (J)</li>
-			<li>2 NEMA-17 stepper motors (K)</li>
-			<li>1 IEC power cord (L)</li>
-			<li>1 Mean Well LRS-150-24 24V power supply (M)</li>
-			<li>2 thin M5 t-nuts (N)</li>
-			<li>2 M5 nylock nuts (O)</li>
-			<li>6 thick M5 t-nuts (P)</li>
-			<li>6 M5x8mm SHCS (Q)</li>
-			<li>10 M5x30mm BHCS (R)</li>
-			<li>8 M3x10mm SHCS (S)</li>
-			<li>2 Omron snap-action switches (T)</li>
-			<li>1 SG90 9g micro servo (U)</li>
-			<li>8 percision shims (V)</li>
-			<li>1 laser cut center plate (W)</li>
-			<li>2 laser cut motor plates (X)</li>
-			<li>1 laser cut idler plate (Y)</li>
+			<li>2 x 500mm 2040 v-slot <span class="mat-label">(A)</span></li>
+			<li>8 <a href="https://openbuildspartstore.com/solid-v-wheel-kit/">solid v-wheel kits</a>[w/ 2 precision spacers and 1 nylock nut] <span class="mat-label">(B)</span></li>
+			<li>4 eccentric spacers <span class="mat-label">(C)</span></li>
+			<li>6 spacers 1/4" <span class="mat-label">(D)</span></li>
+			<li>2.133m 6mm wide GT2 belt <span class="mat-label">(E)</span></li>
+			<li>2 GT2 smooth pulley <span class="mat-label">(F)</span></li>
+			<li>2 GT2 timing pulleys, 20t <span class="mat-label">(G)</span></li>
+			<li>1 arduino uno R3 <span class="mat-label">(H)</span></li>
+			<li>1 stepper motor driver shield <span class="mat-label">(I)</span></li>
+			<li>2 stepper motor driver <span class="mat-label">(J)</span></li>
+			<li>2 NEMA-17 stepper motors <span class="mat-label">(K)</span></li>
+			<li>1 IEC power cord <span class="mat-label">(L)</span></li>
+			<li>1 Mean Well LRS-150-24 24V power supply <span class="mat-label">(M)</span></li>
+			<li>2 thin M5 t-nuts <span class="mat-label">(N)</span></li>
+			<li>2 M5 nylock nuts <span class="mat-label">(O)</span></li>
+			<li>6 thick M5 t-nuts <span class="mat-label">(P)</span></li>
+			<li>6 M5x8mm BHCS <span class="mat-label">(Q)</span></li>
+			<li>10 M5x30mm BHCS <span class="mat-label">(R)</span></li>
+			<li>8 M3x10mm SHCS <span class="mat-label">(S)</span></li>
+			<li>2 Omron snap-action switches <span class="mat-label">(T)</span></li>
+			<li>1 SG90 9g micro servo <span class="mat-label">(U)</span></li>
+			<li>8 percision shims <span class="mat-label">(V)</span></li>
+			<li>1 laser cut center plate <span class="mat-label">(W)</span></li>
+			<li>2 laser cut motor plates <span class="mat-label">(X)</span></li>
+			<li>1 laser cut idler plate <span class="mat-label">(Y)</span></li>
 		</ul>
 	</div>
-	<img src="images/tbot.kit.labeled.png">
+	<div id="mat-imgs">
+		<img id="build-img" src="images/tbot.kit.labeled.png">
+		<div id="mat-grid" class="grid-img">
+			<img src="images/eccentric-spacer.png">
+			<img src="images/spacer-1-4.jpg">
+			<img src="images/smooth-pulley.jpg">
+			<img src="images/timing-pulley.jpg">
+			<img src="images/stepper-motor.jpg">
+			<img src="images/thin-t-nut.jpg">
+			<img src="images/nylock-nut.jpg">
+			<img src="images/tnut.jpg">
+			<img src="images/m5x8.jpg">
+			<img src="images/shim.jpg">
+		</div>
+	</div>
 </div>
 
 ## Mechanical
