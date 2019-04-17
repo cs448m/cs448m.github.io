@@ -61,31 +61,34 @@ This assignment is to build a working t-bot plotter.
 <div id="materials">
 	<div id="bom">
 		<ul>
-			<li>2 x 500mm 2040 v-slot</li>
-			<li>8 [solid v-wheel kits](https://openbuildspartstore.com/solid-v-wheel-kit/)</li>
-			 (w/ 2 precision spacers and 1 nylock nut)
-			<li>4 eccentric spacers</li>
-			<li>6 spacers 1/4"</li>
-			<li>2.133m 6mm wide GT2 belt</li>
-			<li>2 GT2 smooth pulley</li>
-			<li>2 GT2 timing pulleys, 20t</li>
-			<li>1 arduino uno R3</li>
-			<li>1 stepper motor driver shield	</li>
-			<li>2 stepper motor driver</li>
-			<li>2 NEMA-17 stepper motors</li>
-			<li>1 IEC power cord</li>
-			<li>1 Mean Well LRS-150-24 24V power supply</li>
-			<li>2 thin M5 t-nuts</li>
-			<li>2 M5 nylock nuts</li>
-			<li>6 thick M5 t-nuts</li>
-			<li>6 M5x8mm SHCS	</li>
-			<li>10 M5x30mm BHCS</li>
-			<li>4 M3x10mm SHCS </li>
-			<li>2 Omron snap-action switches</li>
-			<li>1 SG90 9g micro servo</li>
+			<li>2 x 500mm 2040 v-slot (A)</li>
+			<li>8 <a href="https://openbuildspartstore.com/solid-v-wheel-kit/">solid v-wheel kits</a>[w/ 2 precision spacers and 1 nylock nut] (B)</li>
+			<li>4 eccentric spacers (C)</li>
+			<li>6 spacers 1/4" (D)</li>
+			<li>2.133m 6mm wide GT2 belt (E)</li>
+			<li>2 GT2 smooth pulley (F)</li>
+			<li>2 GT2 timing pulleys, 20t (G)</li>
+			<li>1 arduino uno R3 (H)</li>
+			<li>1 stepper motor driver shield (I)</li>
+			<li>2 stepper motor driver (J)</li>
+			<li>2 NEMA-17 stepper motors (K)</li>
+			<li>1 IEC power cord (L)</li>
+			<li>1 Mean Well LRS-150-24 24V power supply (M)</li>
+			<li>2 thin M5 t-nuts (N)</li>
+			<li>2 M5 nylock nuts (O)</li>
+			<li>6 thick M5 t-nuts (P)</li>
+			<li>6 M5x8mm SHCS (Q)</li>
+			<li>10 M5x30mm BHCS (R)</li>
+			<li>8 M3x10mm SHCS (S)</li>
+			<li>2 Omron snap-action switches (T)</li>
+			<li>1 SG90 9g micro servo (U)</li>
+			<li>8 percision shims (V)</li>
+			<li>1 laser cut center plate (W)</li>
+			<li>2 laser cut motor plates (X)</li>
+			<li>1 laser cut idler plate (Y)</li>
 		</ul>
 	</div>
-	<img src="images/tbot.kit.png">
+	<img src="images/tbot.kit.labeled.png">
 </div>
 
 ## Mechanical
