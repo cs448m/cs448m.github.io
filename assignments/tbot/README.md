@@ -89,7 +89,7 @@ This assignment is to build a working t-bot plotter.
 			<li>8 <a href="https://openbuildspartstore.com/solid-v-wheel-kit/">solid v-wheel kits</a>[w/ 2 precision spacers and 1 nylock nut] <span class="mat-label">(B)</span></li>
 			<li>4 eccentric spacers <span class="mat-label">(C)</span></li>
 			<li>6 spacers 1/4" <span class="mat-label">(D)</span></li>
-			<li>2.133m 6mm wide GT2 belt <span class="mat-label">(E)</span></li>
+			<li>2.133m 6mm wide GT2 belt <span class="mat-label">(E)</span> ** note that you need to cut your own belt! **</li>
 			<li>2 GT2 smooth pulley <span class="mat-label">(F)</span></li>
 			<li>2 GT2 timing pulleys, 20t <span class="mat-label">(G)</span></li>
 			<li>1 arduino uno R3 <span class="mat-label">(H)</span></li>
@@ -220,8 +220,9 @@ This assignment is to build a working t-bot plotter.
 
 <div class="col-img">
 	<a href="images/stepper0.jpg" target="_blank"><img src="images/stepper0.jpg"/></a>
-	[image of plate with screws and t-nut but no pulley]<br>
-	[image of finished stepper plate]
+	<a href="images/stepper1.jpg" target="_blank"><img src="images/stepper1.jpg"/></a>
+	<a href="images/stepper2.jpg" target="_blank"><img src="images/stepper2.jpg"/></a>
+	<a href="images/stepper3.jpg" target="_blank"><img src="images/stepper3.jpg"/></a>
 </div>
 </div>
 
@@ -289,9 +290,9 @@ This assignment is to build a working t-bot plotter.
 	</ol>
 </div>
 <div class="col-img">
-	<a href="images/stepper.center1.lg.jpg"><img alt="center plate" src="images/stepper.center1.jpg"></a>
-	<a href="images/stepper.center2.lg.jpg"><img alt="center plate" src="images/stepper.center2.jpg"></a>
-	<a href="images/center.stepper.lg.jpg"><img alt="2 stepper motors and center plate" src="images/center.stepper.jpg"></a>
+	<a href="images/stepper.center1.lg.jpg" target="_blank"><img alt="center plate" src="images/stepper.center1.jpg"></a>
+	<a href="images/stepper.center2.lg.jpg" target="_blank"><img alt="center plate" src="images/stepper.center2.jpg"></a>
+	<a href="images/center.stepper.lg.jpg" target="_blank"><img alt="2 stepper motors and center plate" src="images/center.stepper.jpg"></a>
 	<a href="images/tbot1.lg.jpg"><img alt="center plate" src="images/tbot1.jpg"></a>
 </div></div>
 
@@ -313,13 +314,15 @@ This assignment is to build a working t-bot plotter.
 
 <div class="col-txt">
 	<ol>
-		<li>Slide switch on power supply to 115 VAC position.</li>
-		<li>Attach line, neutral and ground to power supply terminals.<br/><br/>
+		<li>Slide switch on power supply to 115 VAC position (photo 2). </li>
+		<li>Attach line, neutral and ground to power supply terminals. Take care to attach the right lines to the right terminals (photo 3).<br/><br/>
 		<b>WARNING: Be Careful! These are live wires.</b></li>
 	</ol>
 </div>
 <div class="col-img">
-	<a href="images/power.supply.lg.jpg"><img src="images/power.supply.jpg"></a>
+	<a href="images/power.supply.lg.jpg" target="_blank"><img src="images/power.supply.jpg"></a>
+	<a href="images/power2.jpg" target="_blank"><img src="images/power2.jpg"></a>
+	<a href="images/power1.jpg" target="_blank"><img src="images/power1.jpg"></a>
 </div>
 </div>
 
