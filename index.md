@@ -37,7 +37,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
    </tr> 
     <tr><td>Apr 18</td><td><b>Plotter Principles of Operation 2</b>
     	<br><span class="assigned"><i>Assigned:</i>
-    			<br><a href="/assignments/howitsmade/"> &emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter <b>(due Thu, May 2)</b></a>
+    			<br><a href="/assignments/tbot/"> &emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter</a> <b>(due Thu, May 2)</b>
     	</span></td></tr>
     <tr><td>Apr 23</td><td><b>GCODE and Trajectories</b></td></tr>
     <tr><td>Apr 25</td><td><b>Overview of CAM</b></td></tr>
