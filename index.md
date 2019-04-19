@@ -35,7 +35,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     <tr><td>Apr 16 </td>
        <td><a href="/lectures/tbot/tbot1.pdf"><b>Plotter Principles of Operation 1</b></a></td>
    </tr> 
-    <tr><td>Apr 18</td><td><b>Plotter Principles of Operation 2</b>
+    <tr><td>Apr 18</td><td><a href="/lectures/tbot/tbot2.pdf"><b>Plotter Principles of Operation 2</b></a>
     	<br><span class="assigned"><i>Assigned:</i>
     			<br><a href="/assignments/tbot/"> &emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter</a> <b>(due Thu, May 2)</b>
     	</span></td></tr>
