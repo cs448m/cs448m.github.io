@@ -106,7 +106,7 @@ This assignment is to build a working t-bot plotter.
 			<li>8 M3x10mm SHCS <span class="mat-label">(S)</span></li>
 			<li>2 Omron snap-action switches <span class="mat-label">(T)</span></li>
 			<li>1 SG90 9g micro servo <span class="mat-label">(U)</span></li>
-			<li>8 percision shims <span class="mat-label">(V)</span></li>
+			<li>8 M5 percision shims <span class="mat-label">(V)</span></li>
 			<li>1 laser cut center plate <span class="mat-label">(W)</span></li>
 			<li>2 laser cut motor plates <span class="mat-label">(X)</span></li>
 			<li>1 laser cut idler plate <span class="mat-label">(Y)</span></li>
