@@ -101,12 +101,14 @@ This assignment is to build a working t-bot plotter.
 			<li>2 thin M5 t-nuts <span class="mat-label">(N)</span></li>
 			<li>2 M5 nylock nuts <span class="mat-label">(O)</span></li>
 			<li>6 thick M5 t-nuts <span class="mat-label">(P)</span></li>
-			<li>6 M5x8mm BHCS <span class="mat-label">(Q)</span></li>
-			<li>10 M5x30mm BHCS <span class="mat-label">(R)</span></li>
+			<li>2 M5x8mm BHCS <span class="mat-label">(Q)</span></li>
+			<li>6 M5x10mm BHCS <span class="mat-label">(Q)</span></li>
+			<li>8 M5x30mm BHCS <span class="mat-label">(R)</span></li>
+			<li>2 M5x25mm BHCS <span class="mat-label">(R)</span></li>
 			<li>8 M3x10mm SHCS <span class="mat-label">(S)</span></li>
 			<li>2 Omron snap-action switches <span class="mat-label">(T)</span></li>
 			<li>1 SG90 9g micro servo <span class="mat-label">(U)</span></li>
-			<li>8 M5 percision shims <span class="mat-label">(V)</span></li>
+			<li>8 M5 precision shims <span class="mat-label">(V)</span></li>
 			<li>1 laser cut center plate <span class="mat-label">(W)</span></li>
 			<li>2 laser cut motor plates <span class="mat-label">(X)</span></li>
 			<li>1 laser cut idler plate <span class="mat-label">(Y)</span></li>
@@ -213,7 +215,7 @@ This assignment is to build a working t-bot plotter.
 	Attach a t-nut to each screw.</li>
 	<li>Attach the timing pulley to the shaft of the stepper motor.
 	Note that the shaft has a flat side. 
-	Align one of the set screws so that it pushes against the flat side.</li>
+	Align one of the set screws so that it pushes against the flat side and tighten both screws.</li>
 	<li>Repeat this process for the second stepper motor.</li>
 	</ol>
 </div>
@@ -233,7 +235,7 @@ This assignment is to build a working t-bot plotter.
 - 1 custom laser-cut acrylic plate for mounting 2 idler pulleys
 - 2 smooth pulleys with bearings
 - 2 x 1/4" spacers
-- 2 M5 x 30mm BHCS + 2 M5 nuts
+- 2 M5 x 25mm BHCS + 2 M5 nuts
 - 2 M5 x 10mm SHCS + 2 M5 t-nuts
 
 **Instructions**
@@ -243,9 +245,12 @@ This assignment is to build a working t-bot plotter.
 <div id="idler">
 	Attach smooth pulleys to the mounting plate.
 	<ol>
-		<li>Insert 30mm cap screw through one side,
+		<li>Insert 25mm cap screw through one side,
 			then on the other side add the spacer, the pulley,
-			and then tighten with a nut.</li>
+			and then tighten with a nylock nut. Make sure not 
+		        to overtighten the assembly, the pulleys should
+		        still be able to rotate. It's okay if the assembly
+		        is a little loose.</li>
 		<li>Repeat for the 2nd pulley.</li>
 		<li>Add 2 x 10mm machine screws and t-nuts.</li>
 	</ol>
@@ -270,6 +275,8 @@ This assignment is to build a working t-bot plotter.
 - 2040 with 2 stepper motor mounts
 - Center plate assembly
 - 2.133m GT2 timing belt
+- 2 thin t-nuts
+- 2 M5x8 machine screws
 
 **Assembly**
 
@@ -286,7 +293,7 @@ This assignment is to build a working t-bot plotter.
 		<li>Slide extrusion with belt through v-wheels on center plate.</li>
 		<li>Loop timing belt through solid v-wheels.</li>
 		<li>Loop timing belt over timing pulleys attached to stepper motors.</li>
-		<li>Adjust timing-belt tension using the thin t-nuts.</li>
+		<li>Adjust timing-belt tension using the thin t-nuts. You may need to use a screw to hold the belt in place.</li>
 	</ol>
 </div>
 <div class="col-img">
