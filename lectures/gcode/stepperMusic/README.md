@@ -8,5 +8,5 @@ Files associated with [**G-Code lecture**](../gcode.pdf):
 - **Python program:** [xyMerge.py](xyMerge.py)
 - **Original multi-track MIDI file:** [GameofThrones.mid](GameofThrones.mid)
 
-**Warning: Only valid for unconstrained stepper motors. Do not run on the t-bot!**
+**Warning:** Only valid for unconstrained stepper motors. Do not run on the t-bot!
 

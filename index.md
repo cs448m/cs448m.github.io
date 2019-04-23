@@ -39,7 +39,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     	<br><span class="assigned"><i>Assigned:</i>
     			<br><a href="/assignments/tbot/"> &emsp;<b>Assignment 2:</b> Assemble a T-Bot plotter</a> <b>(due Thu, May 2)</b>
     	</span></td></tr>
-    <tr><td>Apr 23</td><td><a href="/lectures/gcode/gcode.pdf"><b>GCODE and Trajectories</b></a></td></tr>
+    <tr><td>Apr 23</td><td><a href="/lectures/gcode/gcode.pdf"><b>G-Code</b></a> (and <a href="/lectures/gcode/stepperMusic/README.md">stepper-motor music</a>)</td></tr>
     <tr><td>Apr 25</td><td><b>Overview of CAM</b></td></tr>
     <tr><td>Apr 30</td><td><b>Project Pitches</b></td></tr>
     <tr><td>May 2</td><td><b>Knitting Machines</b>
