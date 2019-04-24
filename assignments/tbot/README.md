@@ -288,6 +288,7 @@ This assignment is to build a working t-bot plotter.
 	<ol>
 		<li>Slide center plate onto 2040.</li>
 		<li>Attach idler pulleys to one end of 2040.</li>
+        <li>Cut timing belt to length. The final length should be 2.133 mm.</li>
 		<li>Position timing belt.</li>
 		<li>Attach stepper motor to one side of extrusion.</li>
 		<li>Slide extrusion with belt through v-wheels on center plate.</li>
@@ -322,7 +323,18 @@ This assignment is to build a working t-bot plotter.
 <div class="col-txt">
 	<ol>
 		<li>Slide switch on power supply to 115 VAC position (photo 2). </li>
-		<li>Attach line, neutral and ground to power supply terminals. Take care to attach the right lines to the right terminals (photo 3).<br/><br/>
+        <li>Cut off the female end of the power cord. 
+        The male (the one that plugs into the wall outlet should still be
+        attached to the cord).</li>
+        <li>Cut the outer sleeve on the power cord. You should remove
+        approximately 1.5 in of the sleeve. After you do this,
+        three wires should be exposed.</li>
+        <li>Strip the three wires so that approximately 1/4" of copper
+        wire is exposed.</li?
+		<li>Attach line, neutral and ground to power supply terminals.
+        Now is a good time to memorize the color scheme for electrical 
+        wiring. Ground is green, neutral is white, and live is white.
+        Take care to attach the right lines to the right terminals (photo 3).<br/><br/>
 		<b>WARNING: Be Careful! These are live wires.</b></li>
 	</ol>
 </div>
@@ -362,7 +374,12 @@ one for X and one for Y.
 		<b>WARNING: Make sure that the stepper motor drivers are oriented correctly.</b></li>
 		<li>Attach the stepper motor driver shield to the Arduino UNO</li>
 		<li>Attach stepper motor cables to the 4 pin headers.</li>
-		<li>Attach 24V DC power cables to the stepper motor shield.
+		<li>Locate the red-black power zip cord.
+        Cut a short length (8-12 in) and strip the wire ends
+        exposing about 1/4" of copper wire.
+        Attach 24V DC power supply to the stepper motor shield
+        power terminals. Make sure you connect positive to positive,
+        and negative to negative.
 			The power supply provides power to the stepper motors.<br/><br/>
 			<b>WARNING: DO NOT apply motor power to the shield unless
 			the stepper motors as attached to the driver chips.
