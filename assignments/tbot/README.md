@@ -330,7 +330,7 @@ This assignment is to build a working t-bot plotter.
         approximately 1.5 in of the sleeve. After you do this,
         three wires should be exposed.</li>
         <li>Strip the three wires so that approximately 1/4" of copper
-        wire is exposed.</li?
+	wire is exposed.</li>
 		<li>Attach line, neutral and ground to power supply terminals.
         Now is a good time to memorize the color scheme for electrical 
         wiring. Ground is green, neutral is white, and live is white.
