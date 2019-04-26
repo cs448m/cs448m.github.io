@@ -396,7 +396,7 @@ one for X and one for Y.
 
 **Instructions**
 
-1. Download Arduino development environment <https://www.arduino.cc/en/Main/Software>
+1. Download [Arduino development environment](https://www.arduino.cc/en/Main/Software)
 
 2. Clone [GRBL 1.1](https://github.com/gnea/grbl).
 The [wiki](https://github.com/gnea/grbl/wiki)
