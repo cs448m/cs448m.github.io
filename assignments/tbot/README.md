@@ -101,11 +101,11 @@ This assignment is to build a working t-bot plotter.
 			<li>2 thin M5 t-nuts <span class="mat-label">(N)</span></li>
 			<li>2 M5 nylock nuts <span class="mat-label">(O)</span></li>
 			<li>6 thick M5 t-nuts <span class="mat-label">(P)</span></li>
-			<li>2 M5x8mm BHCS <span class="mat-label">(Q)</span></li>
+			<li>2 M5x5mm set screws <span class="mat-label">(Q)</span></li>
 			<li>6 M5x10mm BHCS <span class="mat-label">(Q)</span></li>
 			<li>8 M5x30mm BHCS <span class="mat-label">(R)</span></li>
 			<li>2 M5x25mm BHCS <span class="mat-label">(R)</span></li>
-			<li>8 M3x10mm SHCS <span class="mat-label">(S)</span></li>
+			<li>8 M3x10mm BHCS <span class="mat-label">(S)</span></li>
 			<li>2 Omron snap-action switches <span class="mat-label">(T)</span></li>
 			<li>1 SG90 9g micro servo <span class="mat-label">(U)</span></li>
 			<li>8 M5 precision shims <span class="mat-label">(V)</span></li>
@@ -197,8 +197,8 @@ This assignment is to build a working t-bot plotter.
 
 - 2 custom laser plates for motors
 - 2 NEMA17 stepper motors
-- 8 M3 x 10mm SHCS 
-- 4 M5 x 10mm SHCS 
+- 8 M3 x 10mm BHCS 
+- 4 M5 x 10mm BHCS 
 - 4 M5 t-nuts
 - 2 GT2 20t timing pulleys with set screws
 
@@ -210,7 +210,7 @@ This assignment is to build a working t-bot plotter.
 
 <div class="col-txt">
 	<ol>
-	<li>Attach the stepper motor to the motor mounting plate using 4 M3 SHCS.</li>
+	<li>Attach the stepper motor to the motor mounting plate using 4 M3 BHCS.</li>
 	<li>Slide 2 x M5 machine screws through the center holes of the mounting plate.
 	Attach a t-nut to each screw.</li>
 	<li>Attach the timing pulley to the shaft of the stepper motor.
@@ -236,7 +236,7 @@ This assignment is to build a working t-bot plotter.
 - 2 smooth pulleys with bearings
 - 2 x 1/4" spacers
 - 2 M5 x 25mm BHCS + 2 M5 nuts
-- 2 M5 x 10mm SHCS + 2 M5 t-nuts
+- 2 M5 x 10mm BHCS + 2 M5 t-nuts
 
 **Instructions**
 
@@ -276,7 +276,7 @@ This assignment is to build a working t-bot plotter.
 - Center plate assembly
 - 2.133m GT2 timing belt
 - 2 thin t-nuts
-- 2 M5x8 machine screws
+- 2 M5x5mm set screws
 
 **Assembly**
 
@@ -294,7 +294,7 @@ This assignment is to build a working t-bot plotter.
 		<li>Slide extrusion with belt through v-wheels on center plate.</li>
 		<li>Loop timing belt through solid v-wheels.</li>
 		<li>Loop timing belt over timing pulleys attached to stepper motors.</li>
-		<li>Adjust timing-belt tension using the thin t-nuts. You may need to use a screw to hold the belt in place.</li>
+		<li>Adjust timing-belt tension using the thin t-nuts. You may need to use a set screw to hold the belt in place.</li>
 	</ol>
 </div>
 <div class="col-img">
@@ -396,7 +396,7 @@ one for X and one for Y.
 
 **Instructions**
 
-1. Download Arduino development environment <https://www.arduino.cc/en/Main/Software>
+1. Download [Arduino development environment](https://www.arduino.cc/en/Main/Software)
 
 2. Clone [GRBL 1.1](https://github.com/gnea/grbl).
 The [wiki](https://github.com/gnea/grbl/wiki)
