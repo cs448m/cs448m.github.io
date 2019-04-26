@@ -333,7 +333,7 @@ This assignment is to build a working t-bot plotter.
 	wire is exposed.</li>
 		<li>Attach line, neutral and ground to power supply terminals.
         Now is a good time to memorize the color scheme for electrical 
-        wiring. Ground is green, neutral is white, and live is white.
+        wiring. Ground is green, neutral is white, and live is black.
         Take care to attach the right lines to the right terminals (photo 3).<br/><br/>
 		<b>WARNING: Be Careful! These are live wires.</b></li>
 	</ol>
