@@ -42,7 +42,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     <tr><td>Apr 23</td><td><a href="/lectures/gcode/gcode.pdf"><b>G-Code</b></a> (and <a href="/lectures/gcode/stepperMusic">stepper-motor music</a>)</td></tr>
     <tr><td>Apr 25</td><td><a href="/lectures/cam/CAM.pdf"><b>Overview of CAM</b></a><br><span class="assigned"><i>Assigned:</i>
                 <br><a href="https://docs.google.com/presentation/d/1dyCj_XGGGUmob6edjqQaQ8sGndR2pEPoxe_Kx8850fg/edit#slide=id.p"> &emsp;<b>Project Pitch Slide Deck</b></a> <b>(due Tues, Apr 30 at 10:30AM)</b>
-                <br>&emsp;<b>Read two papers: (due Tues, May 2 at 10:30AM; Come to class prepared to discuss)</b>
+                <br>&emsp;<b>Read two papers: (due Thurs, May 2 at 10:30AM; Come to class prepared to discuss)</b>
                 <br>&emsp;&emsp;&emsp;<a href="http://cba.mit.edu/docs/papers/17.05.peek.pdf">Cardboard machine kit: Modules for the rapid prototyping of rapid prototyping machines. Peek. 2017.</a>
                 <br>&emsp;&emsp;&emsp;<a href="http://crl.ethz.ch/papers/CDMC_final.pdf">Computational Design of Mechanical Characters. Coros. 2013.</a>
         </span></td></tr>
