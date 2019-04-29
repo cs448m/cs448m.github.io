@@ -288,7 +288,7 @@ This assignment is to build a working t-bot plotter.
 	<ol>
 		<li>Slide center plate onto 2040.</li>
 		<li>Attach idler pulleys to one end of 2040.</li>
-        <li>Cut timing belt to length. The final length should be 2.133 mm.</li>
+        <li>Cut timing belt to length. The final length should be 2.133 m.</li>
 		<li>Position timing belt.</li>
 		<li>Attach stepper motor to one side of extrusion.</li>
 		<li>Slide extrusion with belt through v-wheels on center plate.</li>
