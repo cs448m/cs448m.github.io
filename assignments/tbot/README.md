@@ -288,7 +288,7 @@ This assignment is to build a working t-bot plotter.
 	<ol>
 		<li>Slide center plate onto 2040.</li>
 		<li>Attach idler pulleys to one end of 2040.</li>
-        <li>Cut timing belt to length. The final length should be 2.133 mm.</li>
+        <li>Cut timing belt to length. The final length should be 2.133 m.</li>
 		<li>Position timing belt.</li>
 		<li>Attach stepper motor to one side of extrusion.</li>
 		<li>Slide extrusion with belt through v-wheels on center plate.</li>
@@ -330,10 +330,10 @@ This assignment is to build a working t-bot plotter.
         approximately 1.5 in of the sleeve. After you do this,
         three wires should be exposed.</li>
         <li>Strip the three wires so that approximately 1/4" of copper
-        wire is exposed.</li?
+	wire is exposed.</li>
 		<li>Attach line, neutral and ground to power supply terminals.
         Now is a good time to memorize the color scheme for electrical 
-        wiring. Ground is green, neutral is white, and live is white.
+        wiring. Ground is green, neutral is white, and live is black.
         Take care to attach the right lines to the right terminals (photo 3).<br/><br/>
 		<b>WARNING: Be Careful! These are live wires.</b></li>
 	</ol>
