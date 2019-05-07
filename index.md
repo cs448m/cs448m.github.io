@@ -49,7 +49,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     <tr><td>Apr 30</td><td><b>Project Pitches</b></td></tr>
     <tr><td>May 2</td><td><b>Paper Discussion (see papers assigned Apr 25) </b>
     	<br><span class="assigned"><i>Assigned:</i>
-    			<br>&emsp;<b>Final Project (Project Proposals due May 9; Project Due June 10 at 8:30AM)</b>
+    			<br>&emsp;<b><a href="/assignments/finalproject/">Final Project</a> (Project Proposals due May 9; Project Due June 10 at 8:30AM)</b>
     	</span></td></tr>
     <tr><td>May 7</td><td><b>Jigs and Fixtures</b></td></tr>
     <tr><td>May 9</td><td><b>Interactive Machines </b></td></tr>
