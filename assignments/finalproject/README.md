@@ -2,7 +2,7 @@
 
 ## Goal
 
-In this assignment, you will be designing and executing on a project idea related to making. We'd like you to come up with an idea that: 
+In this assignment, you will come up with and execute on a project idea related to MMM4M. We'd like you to come up with an idea that: 
 
 1. You know something about and have a vested interest in.
 2. Weaves in some innovative use of technology.
