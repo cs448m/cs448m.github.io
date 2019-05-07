@@ -53,10 +53,10 @@ For more detailed course logistics and policies, see the [course info](/course_i
     	</span></td></tr>
     <tr><td>May 7</td><td><b>Jigs and Fixtures</b></td></tr>
     <tr><td>May 9</td><td><b>Interactive Machines </b></td></tr>
-    <tr><td>May 14</td><td><b>Project Discussions</b></td></tr>
-    <tr><td>May 16</td><td><b>Project Discussions</b></td></tr>
-    <tr><td>May 21</td><td><b>Guest Lecture </b></td></tr>
-    <tr><td>May 23</td><td><b>Guest Lecture</b></td></tr>
+    <tr><td>May 14</td><td><b>Knitting</b></td></tr>
+    <tr><td>May 16</td><td><b>Ilan Moyer, ShaperTools</b></td></tr>
+    <tr><td>May 21</td><td><b>Project Discussions</b></td></tr>
+    <tr><td>May 23</td><td><b>Project Discussions</b></td></tr>
     <tr><td>May 28</td><td><b>Silly Machines and Kinetic Art  </b></td></tr>
     <tr><td>May 30</td><td><b>Work Session</b></td></tr>
     <tr><td>June 4</td><td><b>Work Session</b></td></tr>
