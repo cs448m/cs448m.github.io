@@ -55,10 +55,10 @@ For more detailed course logistics and policies, see the [course info](/course_i
     <span class="assigned">
     <br><i>Assigned for Thu:</i>
                 <br>&emsp;<b>Watch</b>
-                <br>&emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=NMd4MCKGHBE">History of the Sewing Machine"</a>
+                <br>&emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=NMd4MCKGHBE">History of the sewing machine</a>
                 <br>&emsp;<b>Read</b>
                 <br>&emsp;&emsp;&emsp;<a href="https://ieeexplore.ieee.org/document/6850242?arnumber=6850242">The wise chisel</a>
-                <br>&emsp;&emsp;&emsp;<a href="https://dl.acm.org/citation.cfm?id=1935716">Interactive fabrication</a>
+                <br>&emsp;&emsp;&emsp;<a href="https://dl.acm.org/citation.cfm?id=1935716">Interactive fabrication: New interfaces for digital fabrication</a>
                 <br>&emsp;&emsp;&emsp;<a href="https://dl.acm.org/citation.cfm?id=2380191">Interactive construction: interactive fabrication of functional mechanical devices</a>
         </span>
     </td></tr>
