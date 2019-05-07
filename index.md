@@ -51,7 +51,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     	<br><span class="assigned"><i>Assigned:</i>
     			<br>&emsp;<b><a href="/assignments/finalproject/">Final Project</a> (Project Proposals due May 9; Project Due June 10 at 8:30AM)</b>
     	</span></td></tr>
-    <tr><td>May 7</td><td><b>Jigs and Fixtures</b></td></tr>
+    <tr><td>May 7</td><td><a href="/lectures/jigs/jigs.pdf"><b>Jigs and Fixtures</b></td></tr>
     <tr><td>May 9</td><td><b>Interactive Machines </b></td></tr>
     <tr><td>May 14</td><td><b>Knitting</b></td></tr>
     <tr><td>May 16</td><td><b>Ilan Moyer, ShaperTools</b></td></tr>
