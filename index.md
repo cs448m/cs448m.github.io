@@ -62,9 +62,16 @@ For more detailed course logistics and policies, see the [course info](/course_i
                 <br>&emsp;&emsp;&emsp;<a href="https://dl.acm.org/citation.cfm?id=2380191">Interactive construction: interactive fabrication of functional mechanical devices</a>
         </span>
     </td></tr>
-    <tr><td>May 9</td><td><b>Interactive Machines </b></td></tr>
+    <tr><td>May 9</td><td><a href="/lectures/interactivemachines/machines.pdf"><b>Interactive Machines </b></a></td></tr>
     <tr><td>May 14</td><td><b>Knitting</b></td></tr>
-    <tr><td>May 16</td><td><b>Ilan Moyer, ShaperTools</b></td></tr>
+    <tr><td>May 16</td>
+        <td><b>Ilan Moyer, ShaperTools</b> 
+          <span class="assigned">
+            <br><i>Assigned:</i>
+            <br>&emsp;&emsp;&emsp;<a href="http://www.alecrivers.com/positioncorrectingtools/">Position-Correcting Tools for 2D Digital Fabrication</a>
+          </span>
+        </td>
+    </tr>
     <tr><td>May 21</td><td><b>Project Discussions</b></td></tr>
     <tr><td>May 23</td><td><b>Project Discussions</b></td></tr>
     <tr><td>May 28</td><td><b>Rodney Stock</b></td></tr>
