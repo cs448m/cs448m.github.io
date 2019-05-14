@@ -63,7 +63,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
         </span>
     </td></tr>
     <tr><td>May 9</td><td><a href="/lectures/interactivemachines/machines.pdf"><b>Interactive Machines </b></a></td></tr>
-    <tr><td>May 14</td><td><b>Knitting</b></td></tr>
+    <tr><td>May 14</td><td><a href="/lectures/textiles/textiles.pdf"><b>Textiles (Weaving, Knitting & Braiding)</b></a></td></tr>
     <tr><td>May 16</td>
         <td><b>Ilan Moyer, ShaperTools</b> 
           <span class="assigned">
