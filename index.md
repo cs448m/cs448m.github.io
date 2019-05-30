@@ -75,7 +75,7 @@ For more detailed course logistics and policies, see the [course info](/course_i
     <tr><td>May 21</td><td><b>Project Discussions</b></td></tr>
     <tr><td>May 23</td><td><b>Project Discussions</b></td></tr>
     <tr><td>May 28</td><td><b>Rodney Stock</b></td></tr>
-    <tr><td>May 30</td><td><b>Silly Machines and Kinetic Art  </b></td></tr>
+    <tr><td>May 30</td><td><a href="/lectures/silly/SillyUselessKinetic.pdf"><b>Silly & Useless Machines with connections to Kinetic Art  </b></a></td></tr>
     <tr><td>June 4</td><td><b>Work Session</b></td></tr>
     <tr><td>June 6</td><td><b>Work Session</b></td></tr>
     <tr><td>June 10</td><td><b>**Mon 8:30 - 11:30** Project Demonstrations</b></td></tr>
